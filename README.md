@@ -2,6 +2,18 @@
 
 **FinSights-AI** is a professional full-stack financial dashboard that provides real-time NSE stock data paired with AI-driven market sentiment analysis. Built for modern traders, it uses Large Language Models (LLMs) to provide actionable insights.
 
+---
+
+## 🌐 Go to Website
+Click here to access the live application: **[FinSights-AI Live](https://fin-sights-ai.vercel.app/)**
+
+---
+
+## 🚀 Project Deployment Links
+- **Frontend URL:** [https://fin-sights-ai.vercel.app/](https://fin-sights-ai.vercel.app/)
+- **Backend API:** [https://finsights-ai-2zsd.onrender.com](https://finsights-ai-2zsd.onrender.com)
+
+
 ## 🚀 Key Features
 
 - **Real-Time Data Fetching:** Live price action, High/Low, and Open data using **Fyers API**.
