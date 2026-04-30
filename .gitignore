@@ -1,0 +1,17 @@
+# Python environment and cache
+backend/__pycache__/
+backend/venv/
+backend/.env
+
+# Next.js and Node modules
+frontend/node_modules/
+frontend/.next/
+frontend/.env
+frontend/dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Root node modules
+node_modules/

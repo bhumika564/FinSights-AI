@@ -1,0 +1,1 @@
+{"level":"ERROR","location":"[get_call:183] fyersModel","message":{"API":"/quotes","error":"('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"},"timestamp":"2026-04-30 22:41:29,601+0530","service":"FyersAPI"}
