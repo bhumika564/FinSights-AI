@@ -47,16 +47,3 @@ npm run dev
 ```
 
 ## 🔧 Save aur Push Karein
-
-Ab ise GitHub par bhejne ke liye terminal mein ye 3 commands chalayein:
-
-```bash
-# 1. Changes add karein
-git add README.md
-
-# 2. Commit karein
-git commit -m "Added professional README documentation"
-
-# 3. GitHub par push karein
-git push origin main
-```
