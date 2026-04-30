@@ -8,7 +8,7 @@
 
 Follow these steps to get real-time insights for any company:
 
-- **Search for a Company**: Enter the name of any listed company (e.g., **Swiggy**, **Zomato**, or **Reliance**) in the search bar.
+- **Search for a Company**: Enter the name of any listed company (e.g., **Swiggy**, **Infosys**, or **Reliance**) in the search bar.
 - **Real-time Share Price**: Get the current market price instantly.
 - **Interactive Charts**: View **Intraday Graphs** and **Stock Charts** to track performance and price movements.
 - **AI Recommendations**: Our AI agent analyzes market trends to give you clear signals:
