@@ -2,6 +2,8 @@
 
 **FinSights-AI** is a professional full-stack financial dashboard that provides real-time NSE stock data paired with AI-driven market sentiment analysis. Built for modern traders, it uses Large Language Models (LLMs) to provide actionable insights.
 
+---
+
 ## ❓ How to Use
 
 Follow these steps to get real-time insights for any company:
@@ -15,15 +17,18 @@ Follow these steps to get real-time insights for any company:
   - **Sell/Avoid**: Risks have been identified.
 - **Financial Analysis**: Get a detailed AI-generated summary explaining the recommendation based on news and technical indicators.
 
+---
 
 ## 🌐 Go to Website
 Click here to access the live application: **[FinSights-AI Live](https://fin-sights-ai.vercel.app/)**
 
+---
 
 ## 🚀 Project Deployment Links
 - **Frontend URL:** [https://fin-sights-ai.vercel.app/](https://fin-sights-ai.vercel.app/)
 - **Backend API:** [https://finsights-ai-2zsd.onrender.com](https://finsights-ai-2zsd.onrender.com)
 
+---
 
 ## 🚀 Key Features
 
@@ -32,12 +37,16 @@ Click here to access the live application: **[FinSights-AI Live](https://fin-sig
 - **Concurrent Execution:** Run both FastAPI backend and Next.js frontend with a single command.
 - **Clean UI:** Modern, dark-themed dashboard built with Tailwind CSS.
 
+---
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** Next.js 15, Tailwind CSS, Lucide Icons.
 - **Backend:** FastAPI (Python), Uvicorn.
 - **AI:** Llama-3.1-8b (Groq API).
 - **Market Data:** Fyers Open API v3.
+
+---
 
 ## 📦 Project Structure
 
@@ -48,6 +57,8 @@ FinSights-AI/
 ├── package.json     # Root config for concurrent execution
 └── .gitignore       # Credential security
 ```
+
+---
 
 ## ⚙️ Setup & Installation
 
@@ -68,3 +79,4 @@ npm install
 ```bash
 npm run dev
 ```
+
