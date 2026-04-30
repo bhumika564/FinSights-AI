@@ -45,5 +45,3 @@ npm install
 ```bash
 npm run dev
 ```
-
-## 🔧 Save aur Push Karein
