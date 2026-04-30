@@ -2,12 +2,23 @@
 
 **FinSights-AI** is a professional full-stack financial dashboard that provides real-time NSE stock data paired with AI-driven market sentiment analysis. Built for modern traders, it uses Large Language Models (LLMs) to provide actionable insights.
 
----
+## ❓ How to Use
+
+Follow these steps to get real-time insights for any company:
+
+- **Search for a Company**: Enter the name of any listed company (e.g., **Swiggy**, **Zomato**, or **Reliance**) in the search bar.
+- **Real-time Share Price**: Get the current market price instantly.
+- **Interactive Charts**: View **Intraday Graphs** and **Stock Charts** to track performance and price movements.
+- **AI Recommendations**: Our AI agent analyzes market trends to give you clear signals:
+  - **Invest/Buy**: Long-term growth is expected.
+  - **Hold**: The market is stable.
+  - **Sell/Avoid**: Risks have been identified.
+- **Financial Analysis**: Get a detailed AI-generated summary explaining the recommendation based on news and technical indicators.
+
 
 ## 🌐 Go to Website
 Click here to access the live application: **[FinSights-AI Live](https://fin-sights-ai.vercel.app/)**
 
----
 
 ## 🚀 Project Deployment Links
 - **Frontend URL:** [https://fin-sights-ai.vercel.app/](https://fin-sights-ai.vercel.app/)
