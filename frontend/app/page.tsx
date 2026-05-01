@@ -26,12 +26,15 @@ export default function FinSightsDashboard() {
     try {
       if (symbol) {
         setIsSearching(true);
-        setData(null); // as soon as new search starts, clear old data to show loading state in cards
+        setData(null); 
       }
       setActiveSymbol(symbol); 
+      
+      
+      const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
       let url = symbol 
-        ? `http://127.0.0.1:8000/api/search?symbol=${symbol}` 
-        : "http://127.0.0.1:8000/api/market-analysis";
+        ? `${baseUrl}/api/search?symbol=${symbol}` 
+        : `${baseUrl}/api/market-analysis`;
       
       const res = await axios.get(url);
       setData(res.data);
