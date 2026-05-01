@@ -31,7 +31,7 @@ export default function FinSightsDashboard() {
       setActiveSymbol(symbol); 
       
       
-      const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+      const baseUrl = process.env.NEXT_PUBLIC_API_URL || "https://finsights-ai-backend.onrender.com";
       let url = symbol 
         ? `${baseUrl}/api/search?symbol=${symbol}` 
         : `${baseUrl}/api/market-analysis`;
