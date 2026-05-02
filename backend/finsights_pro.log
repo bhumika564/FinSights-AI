@@ -1,0 +1,1352 @@
+2026-05-02 22:20:58,759 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 22:20:58,881 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-02 22:20:58,881 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-02 22:20:58,882 - INFO -  * Restarting with stat
+2026-05-02 22:21:00,725 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 22:21:00,758 - WARNING -  * Debugger is active!
+2026-05-02 22:21:00,760 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 22:22:45,866 - INFO - 127.0.0.1 - - [02/May/2026 22:22:45] "[33mGET /api/v1/health HTTP/1.1[0m" 404 -
+2026-05-02 22:22:45,952 - INFO - 127.0.0.1 - - [02/May/2026 22:22:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-02 22:23:23,096 - INFO - 127.0.0.1 - - [02/May/2026 22:23:23] "[33mGET /api/v1/health HTTP/1.1[0m" 404 -
+2026-05-02 22:24:26,289 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 22:24:26,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-02 22:24:26,331 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-02 22:24:26,332 - INFO -  * Restarting with stat
+2026-05-02 22:24:27,995 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 22:24:28,028 - WARNING -  * Debugger is active!
+2026-05-02 22:24:28,030 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 22:27:22,918 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\main.py', reloading
+2026-05-02 22:27:23,190 - INFO -  * Restarting with stat
+2026-05-02 22:33:08,129 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 22:33:08,186 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-02 22:33:08,186 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-02 22:33:08,188 - INFO -  * Restarting with stat
+2026-05-02 22:33:09,841 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 22:33:09,875 - WARNING -  * Debugger is active!
+2026-05-02 22:33:09,880 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 22:41:26,406 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\main.py', reloading
+2026-05-02 22:41:26,626 - INFO -  * Restarting with stat
+2026-05-02 22:57:53,003 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 22:57:53,161 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-02 22:57:53,161 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-02 22:57:53,163 - INFO -  * Restarting with stat
+2026-05-02 22:57:55,041 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 22:57:55,073 - WARNING -  * Debugger is active!
+2026-05-02 22:57:55,076 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 22:58:10,125 - INFO - 127.0.0.1 - - [02/May/2026 22:58:10] "GET /api/v1/user/profile HTTP/1.1" 200 -
+2026-05-02 23:04:28,065 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-02 23:04:28,302 - INFO -  * Restarting with stat
+2026-05-02 23:04:29,998 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:04:30,027 - WARNING -  * Debugger is active!
+2026-05-02 23:04:30,030 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 23:05:34,432 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:05:34,474 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-02 23:05:34,474 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-02 23:05:34,475 - INFO -  * Restarting with stat
+2026-05-02 23:05:36,142 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:05:36,173 - WARNING -  * Debugger is active!
+2026-05-02 23:05:36,176 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 23:05:41,925 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-05-02 23:05:41,935 - INFO - 127.0.0.1 - - [02/May/2026 23:05:41] "GET /api/v1/market/nifty-full HTTP/1.1" 200 -
+2026-05-02 23:07:39,675 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\main.py', reloading
+2026-05-02 23:07:39,886 - INFO -  * Restarting with stat
+2026-05-02 23:17:15,378 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:17:15,434 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-02 23:17:15,435 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-02 23:17:15,436 - INFO -  * Restarting with stat
+2026-05-02 23:17:17,330 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:17:17,360 - WARNING -  * Debugger is active!
+2026-05-02 23:17:17,363 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 23:17:26,916 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:17:26,930 - INFO - 127.0.0.1 - - [02/May/2026 23:17:26] "GET /api/v1/market/nifty-full HTTP/1.1" 200 -
+2026-05-02 23:18:25,251 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:18:25,254 - INFO - 127.0.0.1 - - [02/May/2026 23:18:25] "GET /api/v1/market/nifty-full HTTP/1.1" 200 -
+2026-05-02 23:18:55,384 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:18:55,386 - INFO - 127.0.0.1 - - [02/May/2026 23:18:55] "GET /api/v1/market/nifty-full HTTP/1.1" 200 -
+2026-05-02 23:19:25,489 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:19:25,492 - INFO - 127.0.0.1 - - [02/May/2026 23:19:25] "GET /api/v1/market/nifty-full HTTP/1.1" 200 -
+2026-05-02 23:26:41,669 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\main.py', reloading
+2026-05-02 23:26:41,916 - INFO -  * Restarting with stat
+2026-05-02 23:27:52,593 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:27:52,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-02 23:27:52,664 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-02 23:27:52,666 - INFO -  * Restarting with stat
+2026-05-02 23:27:54,680 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:27:54,711 - WARNING -  * Debugger is active!
+2026-05-02 23:27:54,713 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 23:28:24,099 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:28:24,255 - INFO - 127.0.0.1 - - [02/May/2026 23:28:24] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:28:50,106 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:28:50,177 - INFO - 127.0.0.1 - - [02/May/2026 23:28:50] "GET /api/search?symbol=swiggy HTTP/1.1" 200 -
+2026-05-02 23:28:53,587 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:28:53,664 - INFO - 127.0.0.1 - - [02/May/2026 23:28:53] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:28:54,611 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:28:54,705 - INFO - 127.0.0.1 - - [02/May/2026 23:28:54] "GET /api/search?symbol=zomato HTTP/1.1" 200 -
+2026-05-02 23:29:00,960 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:29:01,080 - INFO - 127.0.0.1 - - [02/May/2026 23:29:01] "GET /api/search?symbol=zoho HTTP/1.1" 200 -
+2026-05-02 23:29:23,590 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:29:23,696 - INFO - 127.0.0.1 - - [02/May/2026 23:29:23] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:29:30,245 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:29:30,326 - INFO - 127.0.0.1 - - [02/May/2026 23:29:30] "GET /api/search?symbol=ICICIBANK HTTP/1.1" 200 -
+2026-05-02 23:29:45,400 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:29:45,495 - INFO - 127.0.0.1 - - [02/May/2026 23:29:45] "GET /api/search?symbol=paytm HTTP/1.1" 200 -
+2026-05-02 23:29:53,870 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:29:54,004 - INFO - 127.0.0.1 - - [02/May/2026 23:29:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:29:56,254 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:29:56,357 - INFO - 127.0.0.1 - - [02/May/2026 23:29:56] "GET /api/search?symbol=rvnl HTTP/1.1" 200 -
+2026-05-02 23:30:23,697 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:30:23,791 - INFO - 127.0.0.1 - - [02/May/2026 23:30:23] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:30:36,189 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:30:36,275 - INFO - 127.0.0.1 - - [02/May/2026 23:30:36] "GET /api/search?symbol=rvnl HTTP/1.1" 200 -
+2026-05-02 23:30:53,597 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:30:53,664 - INFO - 127.0.0.1 - - [02/May/2026 23:30:53] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:31:23,266 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:31:23,357 - INFO - 127.0.0.1 - - [02/May/2026 23:31:23] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:31:54,290 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:31:54,375 - INFO - 127.0.0.1 - - [02/May/2026 23:31:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:32:24,525 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:32:24,596 - INFO - 127.0.0.1 - - [02/May/2026 23:32:24] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:32:55,756 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:32:55,847 - INFO - 127.0.0.1 - - [02/May/2026 23:32:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:33:54,615 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:33:54,722 - INFO - 127.0.0.1 - - [02/May/2026 23:33:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:34:48,188 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:34:48,271 - INFO - 127.0.0.1 - - [02/May/2026 23:34:48] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:34:54,639 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:34:54,707 - INFO - 127.0.0.1 - - [02/May/2026 23:34:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:35:18,497 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:35:18,577 - INFO - 127.0.0.1 - - [02/May/2026 23:35:18] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:35:48,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:35:48,588 - INFO - 127.0.0.1 - - [02/May/2026 23:35:48] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:35:54,439 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:35:54,511 - INFO - 127.0.0.1 - - [02/May/2026 23:35:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:36:18,605 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:36:18,688 - INFO - 127.0.0.1 - - [02/May/2026 23:36:18] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:36:21,192 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\main.py', reloading
+2026-05-02 23:36:21,431 - INFO -  * Restarting with stat
+2026-05-02 23:36:24,155 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:36:24,200 - WARNING -  * Debugger is active!
+2026-05-02 23:36:24,204 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 23:36:49,120 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:36:49,242 - INFO - 127.0.0.1 - - [02/May/2026 23:36:49] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:36:54,239 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:36:54,340 - INFO - 127.0.0.1 - - [02/May/2026 23:36:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:37:18,417 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:37:18,522 - INFO - 127.0.0.1 - - [02/May/2026 23:37:18] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:37:46,321 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:37:46,385 - INFO - 127.0.0.1 - - [02/May/2026 23:37:46] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:37:48,510 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:37:48,594 - INFO - 127.0.0.1 - - [02/May/2026 23:37:48] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:37:54,255 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:37:54,332 - INFO - 127.0.0.1 - - [02/May/2026 23:37:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:38:58,241 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:38:58,371 - INFO - 127.0.0.1 - - [02/May/2026 23:38:58] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:39:01,211 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:39:01,292 - INFO - 127.0.0.1 - - [02/May/2026 23:39:01] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:39:10,529 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:39:10,605 - INFO - 127.0.0.1 - - [02/May/2026 23:39:10] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:39:22,715 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:39:22,790 - INFO - 127.0.0.1 - - [02/May/2026 23:39:22] "GET /api/search?symbol=swiggy HTTP/1.1" 200 -
+2026-05-02 23:39:40,737 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:39:40,889 - INFO - 127.0.0.1 - - [02/May/2026 23:39:40] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:39:54,662 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:39:54,745 - INFO - 127.0.0.1 - - [02/May/2026 23:39:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:40:11,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:40:11,537 - INFO - 127.0.0.1 - - [02/May/2026 23:40:11] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:40:41,356 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:40:41,420 - INFO - 127.0.0.1 - - [02/May/2026 23:40:41] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:40:54,214 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:40:54,287 - INFO - 127.0.0.1 - - [02/May/2026 23:40:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:41:11,358 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:41:11,432 - INFO - 127.0.0.1 - - [02/May/2026 23:41:11] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:41:41,770 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:41:41,858 - INFO - 127.0.0.1 - - [02/May/2026 23:41:41] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:41:54,364 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:41:54,443 - INFO - 127.0.0.1 - - [02/May/2026 23:41:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:42:11,465 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:42:11,611 - INFO - 127.0.0.1 - - [02/May/2026 23:42:11] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:42:53,448 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:42:53,520 - INFO - 127.0.0.1 - - [02/May/2026 23:42:53] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:42:54,267 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:42:54,343 - INFO - 127.0.0.1 - - [02/May/2026 23:42:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:43:54,476 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:43:54,562 - INFO - 127.0.0.1 - - [02/May/2026 23:43:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:43:55,296 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:43:55,385 - INFO - 127.0.0.1 - - [02/May/2026 23:43:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:44:54,482 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:44:54,554 - INFO - 127.0.0.1 - - [02/May/2026 23:44:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:44:55,507 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:44:55,575 - INFO - 127.0.0.1 - - [02/May/2026 23:44:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:45:54,486 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:45:54,564 - INFO - 127.0.0.1 - - [02/May/2026 23:45:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:45:55,715 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:45:55,801 - INFO - 127.0.0.1 - - [02/May/2026 23:45:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:46:54,388 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:46:54,454 - INFO - 127.0.0.1 - - [02/May/2026 23:46:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:46:55,104 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:46:55,176 - INFO - 127.0.0.1 - - [02/May/2026 23:46:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:47:54,316 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:47:54,428 - INFO - 127.0.0.1 - - [02/May/2026 23:47:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:47:55,212 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:47:55,286 - INFO - 127.0.0.1 - - [02/May/2026 23:47:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:48:12,495 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:48:12,578 - INFO - 127.0.0.1 - - [02/May/2026 23:48:12] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:48:13,123 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:48:13,201 - INFO - 127.0.0.1 - - [02/May/2026 23:48:13] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:48:21,426 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:48:21,506 - INFO - 127.0.0.1 - - [02/May/2026 23:48:21] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:48:30,091 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:48:30,170 - INFO - 127.0.0.1 - - [02/May/2026 23:48:30] "GET /api/search?symbol=swiggy HTTP/1.1" 200 -
+2026-05-02 23:48:43,441 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:48:43,512 - INFO - 127.0.0.1 - - [02/May/2026 23:48:43] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:48:52,453 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:48:52,527 - INFO - 127.0.0.1 - - [02/May/2026 23:48:52] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:49:13,364 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:49:13,440 - INFO - 127.0.0.1 - - [02/May/2026 23:49:13] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:49:22,557 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:49:22,664 - INFO - 127.0.0.1 - - [02/May/2026 23:49:22] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:49:43,446 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:49:43,520 - INFO - 127.0.0.1 - - [02/May/2026 23:49:43] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:49:52,457 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:49:52,531 - INFO - 127.0.0.1 - - [02/May/2026 23:49:52] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:50:13,345 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:50:13,456 - INFO - 127.0.0.1 - - [02/May/2026 23:50:13] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:50:22,341 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:50:22,342 - ERROR - AI Report Error: Expecting ',' delimiter: line 4 column 19 (char 110)
+2026-05-02 23:50:22,416 - INFO - 127.0.0.1 - - [02/May/2026 23:50:22] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:50:43,445 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:50:43,529 - INFO - 127.0.0.1 - - [02/May/2026 23:50:43] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:50:52,466 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:50:52,572 - INFO - 127.0.0.1 - - [02/May/2026 23:50:52] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:51:13,861 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:51:13,949 - INFO - 127.0.0.1 - - [02/May/2026 23:51:13] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:51:22,362 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:51:22,464 - INFO - 127.0.0.1 - - [02/May/2026 23:51:22] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:51:52,473 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:51:52,547 - INFO - 127.0.0.1 - - [02/May/2026 23:51:52] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:51:54,517 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:51:54,600 - INFO - 127.0.0.1 - - [02/May/2026 23:51:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:52:22,388 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:52:22,482 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-02 23:52:22,482 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-02 23:52:22,486 - INFO -  * Restarting with stat
+2026-05-02 23:52:25,068 - INFO - Successfully connected to Fyers and Groq.
+2026-05-02 23:52:25,107 - WARNING -  * Debugger is active!
+2026-05-02 23:52:25,109 - INFO -  * Debugger PIN: 810-838-334
+2026-05-02 23:52:54,518 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:52:54,651 - INFO - 127.0.0.1 - - [02/May/2026 23:52:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:52:55,331 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:52:55,414 - INFO - 127.0.0.1 - - [02/May/2026 23:52:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:53:54,523 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:53:54,624 - INFO - 127.0.0.1 - - [02/May/2026 23:53:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:53:55,335 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:53:55,419 - INFO - 127.0.0.1 - - [02/May/2026 23:53:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:54:31,488 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:54:31,556 - INFO - 127.0.0.1 - - [02/May/2026 23:54:31] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:54:40,295 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:54:40,367 - INFO - 127.0.0.1 - - [02/May/2026 23:54:40] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:54:54,528 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:54:54,611 - INFO - 127.0.0.1 - - [02/May/2026 23:54:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:55:11,331 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:55:11,415 - INFO - 127.0.0.1 - - [02/May/2026 23:55:11] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:55:41,528 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:55:41,600 - INFO - 127.0.0.1 - - [02/May/2026 23:55:41] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:55:54,291 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:55:54,369 - INFO - 127.0.0.1 - - [02/May/2026 23:55:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:56:11,671 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:56:11,746 - INFO - 127.0.0.1 - - [02/May/2026 23:56:11] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:56:41,636 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:56:41,715 - INFO - 127.0.0.1 - - [02/May/2026 23:56:41] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:56:54,435 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:56:54,501 - INFO - 127.0.0.1 - - [02/May/2026 23:56:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:57:11,331 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:57:11,414 - INFO - 127.0.0.1 - - [02/May/2026 23:57:11] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:57:22,556 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:57:22,625 - INFO - 127.0.0.1 - - [02/May/2026 23:57:22] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:57:41,514 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:57:41,610 - INFO - 127.0.0.1 - - [02/May/2026 23:57:41] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:57:54,291 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:57:54,366 - INFO - 127.0.0.1 - - [02/May/2026 23:57:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:58:54,547 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:58:54,671 - INFO - 127.0.0.1 - - [02/May/2026 23:58:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-02 23:58:55,503 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 23:58:55,639 - INFO - 127.0.0.1 - - [02/May/2026 23:58:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:00:09,207 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:00:09,257 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 00:00:09,257 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 00:00:09,259 - INFO -  * Restarting with stat
+2026-05-03 00:00:11,224 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:00:11,261 - WARNING -  * Debugger is active!
+2026-05-03 00:00:11,265 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:00:37,968 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:00:38,060 - INFO - 127.0.0.1 - - [03/May/2026 00:00:38] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:00:38,581 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:00:38,664 - INFO - 127.0.0.1 - - [03/May/2026 00:00:38] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:00:45,957 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:00:46,049 - INFO - 127.0.0.1 - - [03/May/2026 00:00:46] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:01:07,380 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:01:07,457 - INFO - 127.0.0.1 - - [03/May/2026 00:01:07] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:01:16,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:01:16,457 - INFO - 127.0.0.1 - - [03/May/2026 00:01:16] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:01:37,342 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:01:37,423 - INFO - 127.0.0.1 - - [03/May/2026 00:01:37] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:01:46,526 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:01:46,756 - INFO - 127.0.0.1 - - [03/May/2026 00:01:46] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:02:07,568 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:02:07,656 - INFO - 127.0.0.1 - - [03/May/2026 00:02:07] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:02:16,985 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:02:17,065 - INFO - 127.0.0.1 - - [03/May/2026 00:02:17] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:02:37,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:02:37,529 - INFO - 127.0.0.1 - - [03/May/2026 00:02:37] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:02:46,477 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:02:46,563 - INFO - 127.0.0.1 - - [03/May/2026 00:02:46] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:03:07,467 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:03:07,542 - INFO - 127.0.0.1 - - [03/May/2026 00:03:07] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:03:16,161 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:03:16,242 - INFO - 127.0.0.1 - - [03/May/2026 00:03:16] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:03:37,367 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:03:37,454 - INFO - 127.0.0.1 - - [03/May/2026 00:03:37] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:03:46,232 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:03:46,314 - INFO - 127.0.0.1 - - [03/May/2026 00:03:46] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:04:54,574 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:04:54,656 - INFO - 127.0.0.1 - - [03/May/2026 00:04:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:04:55,567 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:04:55,643 - INFO - 127.0.0.1 - - [03/May/2026 00:04:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:05:54,271 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:05:54,350 - INFO - 127.0.0.1 - - [03/May/2026 00:05:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:05:54,886 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:05:54,959 - INFO - 127.0.0.1 - - [03/May/2026 00:05:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:06:24,355 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:06:24,412 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 00:06:24,412 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 00:06:24,414 - INFO -  * Restarting with stat
+2026-05-03 00:06:26,546 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:06:26,584 - WARNING -  * Debugger is active!
+2026-05-03 00:06:26,586 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:06:28,167 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:06:28,275 - INFO - 127.0.0.1 - - [03/May/2026 00:06:28] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:06:29,804 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:06:29,873 - INFO - 127.0.0.1 - - [03/May/2026 00:06:29] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:06:35,333 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:06:35,493 - INFO - 127.0.0.1 - - [03/May/2026 00:06:35] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:06:43,791 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:06:43,900 - INFO - 127.0.0.1 - - [03/May/2026 00:06:43] "GET /api/search?symbol=swiggy HTTP/1.1" 200 -
+2026-05-03 00:06:52,535 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:06:52,614 - INFO - 127.0.0.1 - - [03/May/2026 00:06:52] "GET /api/search?symbol=icicibank HTTP/1.1" 200 -
+2026-05-03 00:06:54,379 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:06:54,489 - INFO - 127.0.0.1 - - [03/May/2026 00:06:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:07:00,729 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:07:00,841 - INFO - 127.0.0.1 - - [03/May/2026 00:07:00] "GET /api/search?symbol=relianxw HTTP/1.1" 200 -
+2026-05-03 00:07:04,680 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:07:05,165 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:07:05,234 - INFO - 127.0.0.1 - - [03/May/2026 00:07:05] "GET /api/search?symbol=tcs HTTP/1.1" 200 -
+2026-05-03 00:07:05,249 - INFO - 127.0.0.1 - - [03/May/2026 00:07:05] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:07:11,276 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:07:11,349 - INFO - 127.0.0.1 - - [03/May/2026 00:07:11] "GET /api/search?symbol=tcs HTTP/1.1" 200 -
+2026-05-03 00:07:20,799 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:07:20,876 - INFO - 127.0.0.1 - - [03/May/2026 00:07:20] "GET /api/search?symbol=infosys HTTP/1.1" 200 -
+2026-05-03 00:07:35,423 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:07:35,505 - INFO - 127.0.0.1 - - [03/May/2026 00:07:35] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:07:54,281 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:07:54,369 - INFO - 127.0.0.1 - - [03/May/2026 00:07:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:08:05,296 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:08:05,379 - INFO - 127.0.0.1 - - [03/May/2026 00:08:05] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:08:35,291 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:08:35,380 - INFO - 127.0.0.1 - - [03/May/2026 00:08:35] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:08:54,594 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:08:54,690 - INFO - 127.0.0.1 - - [03/May/2026 00:08:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:09:05,345 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:09:05,439 - INFO - 127.0.0.1 - - [03/May/2026 00:09:05] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:09:35,187 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:09:35,350 - INFO - 127.0.0.1 - - [03/May/2026 00:09:35] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:09:54,597 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:09:54,687 - INFO - 127.0.0.1 - - [03/May/2026 00:09:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:10:54,603 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:10:54,687 - INFO - 127.0.0.1 - - [03/May/2026 00:10:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:10:55,422 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:10:55,516 - INFO - 127.0.0.1 - - [03/May/2026 00:10:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:11:54,607 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:11:54,681 - INFO - 127.0.0.1 - - [03/May/2026 00:11:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:11:57,258 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:11:57,342 - INFO - 127.0.0.1 - - [03/May/2026 00:11:57] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:12:11,407 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:12:11,479 - INFO - 127.0.0.1 - - [03/May/2026 00:12:11] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:12:35,459 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:12:35,532 - INFO - 127.0.0.1 - - [03/May/2026 00:12:35] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:12:54,612 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:12:54,686 - INFO - 127.0.0.1 - - [03/May/2026 00:12:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:13:05,466 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:13:05,532 - INFO - 127.0.0.1 - - [03/May/2026 00:13:05] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:13:54,322 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:13:54,490 - INFO - 127.0.0.1 - - [03/May/2026 00:13:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:13:55,128 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:13:55,203 - INFO - 127.0.0.1 - - [03/May/2026 00:13:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:14:54,481 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:14:54,572 - INFO - 127.0.0.1 - - [03/May/2026 00:14:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:14:55,201 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:14:55,332 - INFO - 127.0.0.1 - - [03/May/2026 00:14:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:15:54,421 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:15:54,497 - INFO - 127.0.0.1 - - [03/May/2026 00:15:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:15:55,241 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:15:55,321 - INFO - 127.0.0.1 - - [03/May/2026 00:15:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:16:54,316 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:16:54,398 - INFO - 127.0.0.1 - - [03/May/2026 00:16:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:16:55,046 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:16:55,130 - INFO - 127.0.0.1 - - [03/May/2026 00:16:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:17:54,564 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:17:54,650 - INFO - 127.0.0.1 - - [03/May/2026 00:17:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:17:55,370 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:17:55,453 - INFO - 127.0.0.1 - - [03/May/2026 00:17:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:18:54,402 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:18:54,493 - INFO - 127.0.0.1 - - [03/May/2026 00:18:54] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:18:55,104 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:18:55,196 - INFO - 127.0.0.1 - - [03/May/2026 00:18:55] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:38:06,065 - INFO - 127.0.0.1 - - [03/May/2026 00:38:06] "[31m[1mGET /api/market-analysis HTTP/1.1[0m" 401 -
+2026-05-03 00:38:08,946 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:38:09,265 - INFO - 127.0.0.1 - - [03/May/2026 00:38:09] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:38:49,785 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:38:49,861 - INFO - 127.0.0.1 - - [03/May/2026 00:38:49] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:38:50,526 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:38:50,607 - INFO - 127.0.0.1 - - [03/May/2026 00:38:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:39:49,804 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:39:49,894 - INFO - 127.0.0.1 - - [03/May/2026 00:39:49] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:39:50,465 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:39:50,622 - INFO - 127.0.0.1 - - [03/May/2026 00:39:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:40:42,790 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:40:42,906 - INFO - 127.0.0.1 - - [03/May/2026 00:40:42] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:40:45,846 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:40:45,955 - INFO - 127.0.0.1 - - [03/May/2026 00:40:45] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:40:50,093 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:40:50,179 - INFO - 127.0.0.1 - - [03/May/2026 00:40:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:41:15,998 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:41:16,274 - INFO - 127.0.0.1 - - [03/May/2026 00:41:16] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:41:46,200 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:41:46,291 - INFO - 127.0.0.1 - - [03/May/2026 00:41:46] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:41:49,861 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:41:49,940 - INFO - 127.0.0.1 - - [03/May/2026 00:41:49] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:42:16,033 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:42:16,118 - INFO - 127.0.0.1 - - [03/May/2026 00:42:16] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:42:46,101 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:42:46,178 - INFO - 127.0.0.1 - - [03/May/2026 00:42:46] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:42:49,941 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:42:50,011 - INFO - 127.0.0.1 - - [03/May/2026 00:42:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:43:15,866 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:43:15,944 - INFO - 127.0.0.1 - - [03/May/2026 00:43:15] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:43:47,059 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:43:47,138 - INFO - 127.0.0.1 - - [03/May/2026 00:43:47] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:43:49,788 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:43:49,862 - INFO - 127.0.0.1 - - [03/May/2026 00:43:49] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:44:01,302 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:44:01,587 - INFO -  * Restarting with stat
+2026-05-03 00:44:09,179 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:44:09,346 - WARNING -  * Debugger is active!
+2026-05-03 00:44:09,349 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:44:10,451 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:44:10,749 - INFO -  * Restarting with stat
+2026-05-03 00:44:12,495 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:44:12,525 - WARNING -  * Debugger is active!
+2026-05-03 00:44:12,527 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:44:17,456 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:44:17,547 - INFO - 127.0.0.1 - - [03/May/2026 00:44:17] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:44:17,687 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:44:17,951 - INFO -  * Restarting with stat
+2026-05-03 00:44:19,815 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:44:19,860 - WARNING -  * Debugger is active!
+2026-05-03 00:44:19,862 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:44:21,942 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:44:22,176 - INFO -  * Restarting with stat
+2026-05-03 00:44:23,846 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:44:23,879 - WARNING -  * Debugger is active!
+2026-05-03 00:44:23,881 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:44:30,044 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:44:30,257 - INFO -  * Restarting with stat
+2026-05-03 00:44:32,008 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:44:32,042 - WARNING -  * Debugger is active!
+2026-05-03 00:44:32,045 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:44:35,159 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:44:35,368 - INFO -  * Restarting with stat
+2026-05-03 00:44:36,949 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:44:36,978 - WARNING -  * Debugger is active!
+2026-05-03 00:44:36,980 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:44:41,104 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:44:41,297 - INFO -  * Restarting with stat
+2026-05-03 00:44:42,959 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:44:42,995 - WARNING -  * Debugger is active!
+2026-05-03 00:44:42,997 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:44:50,423 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:44:50,511 - INFO - 127.0.0.1 - - [03/May/2026 00:44:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:44:51,140 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:44:51,205 - INFO - 127.0.0.1 - - [03/May/2026 00:44:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:45:00,414 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:00,734 - INFO -  * Restarting with stat
+2026-05-03 00:45:02,692 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:02,721 - WARNING -  * Debugger is active!
+2026-05-03 00:45:02,724 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:03,799 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:04,030 - INFO -  * Restarting with stat
+2026-05-03 00:45:05,701 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:05,730 - WARNING -  * Debugger is active!
+2026-05-03 00:45:05,732 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:07,810 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:07,999 - INFO -  * Restarting with stat
+2026-05-03 00:45:09,814 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:09,844 - WARNING -  * Debugger is active!
+2026-05-03 00:45:09,846 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:12,990 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:13,186 - INFO -  * Restarting with stat
+2026-05-03 00:45:14,735 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:14,767 - WARNING -  * Debugger is active!
+2026-05-03 00:45:14,769 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:21,961 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:22,186 - INFO -  * Restarting with stat
+2026-05-03 00:45:23,874 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:23,904 - WARNING -  * Debugger is active!
+2026-05-03 00:45:23,907 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:24,961 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:25,154 - INFO -  * Restarting with stat
+2026-05-03 00:45:26,781 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:26,811 - WARNING -  * Debugger is active!
+2026-05-03 00:45:26,815 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:42,174 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:42,370 - INFO -  * Restarting with stat
+2026-05-03 00:45:44,125 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:44,153 - WARNING -  * Debugger is active!
+2026-05-03 00:45:44,156 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:45,230 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:45,596 - INFO -  * Restarting with stat
+2026-05-03 00:45:47,451 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:47,480 - WARNING -  * Debugger is active!
+2026-05-03 00:45:47,482 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:48,540 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:48,740 - INFO -  * Restarting with stat
+2026-05-03 00:45:50,422 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:50,453 - WARNING -  * Debugger is active!
+2026-05-03 00:45:50,455 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:51,507 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:51,763 - INFO -  * Restarting with stat
+2026-05-03 00:45:53,364 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:53,398 - WARNING -  * Debugger is active!
+2026-05-03 00:45:53,401 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:45:54,464 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:45:54,664 - INFO -  * Restarting with stat
+2026-05-03 00:45:56,384 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:45:56,415 - WARNING -  * Debugger is active!
+2026-05-03 00:45:56,417 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:01,568 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:01,787 - INFO -  * Restarting with stat
+2026-05-03 00:46:03,586 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:03,623 - WARNING -  * Debugger is active!
+2026-05-03 00:46:03,627 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:04,690 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:04,876 - INFO -  * Restarting with stat
+2026-05-03 00:46:06,437 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:06,466 - WARNING -  * Debugger is active!
+2026-05-03 00:46:06,468 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:07,517 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:07,740 - INFO -  * Restarting with stat
+2026-05-03 00:46:09,450 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:09,482 - WARNING -  * Debugger is active!
+2026-05-03 00:46:09,484 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:16,657 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:16,886 - INFO -  * Restarting with stat
+2026-05-03 00:46:18,452 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:18,493 - WARNING -  * Debugger is active!
+2026-05-03 00:46:18,497 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:19,572 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:19,790 - INFO -  * Restarting with stat
+2026-05-03 00:46:21,481 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:21,517 - WARNING -  * Debugger is active!
+2026-05-03 00:46:21,521 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:28,769 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:29,066 - INFO -  * Restarting with stat
+2026-05-03 00:46:30,716 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:30,745 - WARNING -  * Debugger is active!
+2026-05-03 00:46:30,747 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:34,871 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:35,063 - INFO -  * Restarting with stat
+2026-05-03 00:46:36,742 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:36,773 - WARNING -  * Debugger is active!
+2026-05-03 00:46:36,775 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:37,844 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:38,058 - INFO -  * Restarting with stat
+2026-05-03 00:46:39,634 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:39,664 - WARNING -  * Debugger is active!
+2026-05-03 00:46:39,667 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:40,721 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:40,986 - INFO -  * Restarting with stat
+2026-05-03 00:46:42,744 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:42,776 - WARNING -  * Debugger is active!
+2026-05-03 00:46:42,778 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:47,933 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:48,144 - INFO -  * Restarting with stat
+2026-05-03 00:46:50,037 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:50,070 - WARNING -  * Debugger is active!
+2026-05-03 00:46:50,072 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:51,212 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:46:51,307 - INFO - 127.0.0.1 - - [03/May/2026 00:46:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:46:51,884 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:46:51,962 - INFO - 127.0.0.1 - - [03/May/2026 00:46:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:46:52,162 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:52,370 - INFO -  * Restarting with stat
+2026-05-03 00:46:54,060 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:54,099 - WARNING -  * Debugger is active!
+2026-05-03 00:46:54,102 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:46:57,209 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:46:57,420 - INFO -  * Restarting with stat
+2026-05-03 00:46:58,986 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:46:59,017 - WARNING -  * Debugger is active!
+2026-05-03 00:46:59,019 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:06,201 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:06,393 - INFO -  * Restarting with stat
+2026-05-03 00:47:07,979 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:08,012 - WARNING -  * Debugger is active!
+2026-05-03 00:47:08,016 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:12,146 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:12,380 - INFO -  * Restarting with stat
+2026-05-03 00:47:14,044 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:14,074 - WARNING -  * Debugger is active!
+2026-05-03 00:47:14,076 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:15,135 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:15,331 - INFO -  * Restarting with stat
+2026-05-03 00:47:17,077 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:17,106 - WARNING -  * Debugger is active!
+2026-05-03 00:47:17,108 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:18,159 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:18,374 - INFO -  * Restarting with stat
+2026-05-03 00:47:20,114 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:20,144 - WARNING -  * Debugger is active!
+2026-05-03 00:47:20,146 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:21,200 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:21,415 - INFO -  * Restarting with stat
+2026-05-03 00:47:23,076 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:23,105 - WARNING -  * Debugger is active!
+2026-05-03 00:47:23,107 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:36,426 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:36,685 - INFO -  * Restarting with stat
+2026-05-03 00:47:38,265 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:38,296 - WARNING -  * Debugger is active!
+2026-05-03 00:47:38,298 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:40,371 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:40,565 - INFO -  * Restarting with stat
+2026-05-03 00:47:42,071 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:42,104 - WARNING -  * Debugger is active!
+2026-05-03 00:47:42,106 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:44,226 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:44,451 - INFO -  * Restarting with stat
+2026-05-03 00:47:46,029 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:46,063 - WARNING -  * Debugger is active!
+2026-05-03 00:47:46,065 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:50,205 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:50,416 - INFO -  * Restarting with stat
+2026-05-03 00:47:52,100 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:52,131 - WARNING -  * Debugger is active!
+2026-05-03 00:47:52,133 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:53,270 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:47:53,357 - INFO - 127.0.0.1 - - [03/May/2026 00:47:53] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:47:56,253 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:56,487 - INFO -  * Restarting with stat
+2026-05-03 00:47:58,190 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:47:58,223 - WARNING -  * Debugger is active!
+2026-05-03 00:47:58,225 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:47:59,286 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:47:59,478 - INFO -  * Restarting with stat
+2026-05-03 00:48:01,218 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:01,264 - WARNING -  * Debugger is active!
+2026-05-03 00:48:01,267 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:48:02,331 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth_token.py', reloading
+2026-05-03 00:48:02,530 - INFO -  * Restarting with stat
+2026-05-03 00:48:04,442 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:04,471 - WARNING -  * Debugger is active!
+2026-05-03 00:48:04,473 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:48:12,730 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\ai_analyst.py', reloading
+2026-05-03 00:48:12,992 - INFO -  * Restarting with stat
+2026-05-03 00:48:14,887 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:14,920 - WARNING -  * Debugger is active!
+2026-05-03 00:48:14,922 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:48:15,982 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\ai_analyst.py', reloading
+2026-05-03 00:48:16,288 - INFO -  * Restarting with stat
+2026-05-03 00:48:18,230 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:18,271 - WARNING -  * Debugger is active!
+2026-05-03 00:48:18,273 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:48:19,345 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\ai_analyst.py', reloading
+2026-05-03 00:48:19,642 - INFO -  * Restarting with stat
+2026-05-03 00:48:21,469 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:21,500 - WARNING -  * Debugger is active!
+2026-05-03 00:48:21,503 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:48:26,650 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\ai_analyst.py', reloading
+2026-05-03 00:48:26,894 - INFO -  * Restarting with stat
+2026-05-03 00:48:28,801 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:28,833 - WARNING -  * Debugger is active!
+2026-05-03 00:48:28,835 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:48:42,154 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\ai_analyst.py', reloading
+2026-05-03 00:48:42,475 - INFO -  * Restarting with stat
+2026-05-03 00:48:44,477 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:44,514 - WARNING -  * Debugger is active!
+2026-05-03 00:48:44,516 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:48:48,633 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\ai_analyst.py', reloading
+2026-05-03 00:48:48,911 - INFO -  * Restarting with stat
+2026-05-03 00:48:50,784 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:50,816 - WARNING -  * Debugger is active!
+2026-05-03 00:48:50,818 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:48:52,056 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:48:52,163 - INFO - 127.0.0.1 - - [03/May/2026 00:48:52] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:48:52,796 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:48:52,890 - INFO - 127.0.0.1 - - [03/May/2026 00:48:52] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:48:52,899 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\ai_analyst.py', reloading
+2026-05-03 00:48:53,237 - INFO -  * Restarting with stat
+2026-05-03 00:48:54,939 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:48:54,971 - WARNING -  * Debugger is active!
+2026-05-03 00:48:54,973 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:10,331 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth.py', reloading
+2026-05-03 00:49:10,560 - INFO -  * Restarting with stat
+2026-05-03 00:49:12,270 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:12,311 - WARNING -  * Debugger is active!
+2026-05-03 00:49:12,315 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:13,389 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth.py', reloading
+2026-05-03 00:49:13,610 - INFO -  * Restarting with stat
+2026-05-03 00:49:15,422 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:15,452 - WARNING -  * Debugger is active!
+2026-05-03 00:49:15,454 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:16,529 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth.py', reloading
+2026-05-03 00:49:16,723 - INFO -  * Restarting with stat
+2026-05-03 00:49:18,404 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:18,435 - WARNING -  * Debugger is active!
+2026-05-03 00:49:18,437 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:24,647 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth.py', reloading
+2026-05-03 00:49:24,850 - INFO -  * Restarting with stat
+2026-05-03 00:49:26,544 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:26,578 - WARNING -  * Debugger is active!
+2026-05-03 00:49:26,581 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:27,646 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth.py', reloading
+2026-05-03 00:49:27,844 - INFO -  * Restarting with stat
+2026-05-03 00:49:29,490 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:29,522 - WARNING -  * Debugger is active!
+2026-05-03 00:49:29,525 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:33,643 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth.py', reloading
+2026-05-03 00:49:33,838 - INFO -  * Restarting with stat
+2026-05-03 00:49:35,434 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:35,462 - WARNING -  * Debugger is active!
+2026-05-03 00:49:35,464 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:36,523 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auth.py', reloading
+2026-05-03 00:49:36,722 - INFO -  * Restarting with stat
+2026-05-03 00:49:38,367 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:38,402 - WARNING -  * Debugger is active!
+2026-05-03 00:49:38,404 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:45,583 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:49:45,780 - INFO -  * Restarting with stat
+2026-05-03 00:49:47,373 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:47,406 - WARNING -  * Debugger is active!
+2026-05-03 00:49:47,408 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:48,469 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:49:48,665 - INFO -  * Restarting with stat
+2026-05-03 00:49:50,515 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:50,544 - WARNING -  * Debugger is active!
+2026-05-03 00:49:50,546 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:49:51,682 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:49:51,759 - INFO - 127.0.0.1 - - [03/May/2026 00:49:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:49:52,300 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:49:52,385 - INFO - 127.0.0.1 - - [03/May/2026 00:49:52] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:49:54,670 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:49:54,874 - INFO -  * Restarting with stat
+2026-05-03 00:49:56,585 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:49:56,618 - WARNING -  * Debugger is active!
+2026-05-03 00:49:56,620 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:02,784 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:03,023 - INFO -  * Restarting with stat
+2026-05-03 00:50:04,874 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:04,907 - WARNING -  * Debugger is active!
+2026-05-03 00:50:04,910 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:11,075 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:11,274 - INFO -  * Restarting with stat
+2026-05-03 00:50:12,928 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:12,964 - WARNING -  * Debugger is active!
+2026-05-03 00:50:12,966 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:16,063 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:16,271 - INFO -  * Restarting with stat
+2026-05-03 00:50:18,037 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:18,076 - WARNING -  * Debugger is active!
+2026-05-03 00:50:18,081 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:19,138 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:19,348 - INFO -  * Restarting with stat
+2026-05-03 00:50:20,968 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:20,997 - WARNING -  * Debugger is active!
+2026-05-03 00:50:21,000 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:23,074 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:23,272 - INFO -  * Restarting with stat
+2026-05-03 00:50:24,933 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:24,964 - WARNING -  * Debugger is active!
+2026-05-03 00:50:24,966 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:30,116 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:30,322 - INFO -  * Restarting with stat
+2026-05-03 00:50:32,283 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:32,314 - WARNING -  * Debugger is active!
+2026-05-03 00:50:32,316 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:34,390 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:34,595 - INFO -  * Restarting with stat
+2026-05-03 00:50:36,166 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:36,198 - WARNING -  * Debugger is active!
+2026-05-03 00:50:36,200 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:37,252 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:37,520 - INFO -  * Restarting with stat
+2026-05-03 00:50:39,329 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:39,368 - WARNING -  * Debugger is active!
+2026-05-03 00:50:39,370 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:40,438 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:40,668 - INFO -  * Restarting with stat
+2026-05-03 00:50:42,403 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:42,433 - WARNING -  * Debugger is active!
+2026-05-03 00:50:42,435 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:50,262 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:50:50,356 - INFO - 127.0.0.1 - - [03/May/2026 00:50:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:50:51,044 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:50:51,123 - INFO - 127.0.0.1 - - [03/May/2026 00:50:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:50:52,691 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:52,919 - INFO -  * Restarting with stat
+2026-05-03 00:50:54,772 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:54,814 - WARNING -  * Debugger is active!
+2026-05-03 00:50:54,816 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:57,926 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:50:58,139 - INFO -  * Restarting with stat
+2026-05-03 00:50:59,806 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:50:59,837 - WARNING -  * Debugger is active!
+2026-05-03 00:50:59,839 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:50:59,888 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:00,111 - INFO -  * Restarting with stat
+2026-05-03 00:51:01,916 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:01,948 - WARNING -  * Debugger is active!
+2026-05-03 00:51:01,950 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:08,122 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:08,320 - INFO -  * Restarting with stat
+2026-05-03 00:51:09,858 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:09,888 - WARNING -  * Debugger is active!
+2026-05-03 00:51:09,891 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:10,942 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:11,148 - INFO -  * Restarting with stat
+2026-05-03 00:51:12,993 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:13,027 - WARNING -  * Debugger is active!
+2026-05-03 00:51:13,029 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:14,077 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:14,281 - INFO -  * Restarting with stat
+2026-05-03 00:51:15,926 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:15,956 - WARNING -  * Debugger is active!
+2026-05-03 00:51:15,959 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:22,195 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:22,434 - INFO -  * Restarting with stat
+2026-05-03 00:51:24,146 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:24,176 - WARNING -  * Debugger is active!
+2026-05-03 00:51:24,178 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:25,237 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:25,455 - INFO -  * Restarting with stat
+2026-05-03 00:51:27,028 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:27,059 - WARNING -  * Debugger is active!
+2026-05-03 00:51:27,061 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:37,336 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:37,658 - INFO -  * Restarting with stat
+2026-05-03 00:51:39,453 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:39,490 - WARNING -  * Debugger is active!
+2026-05-03 00:51:39,492 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:41,581 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:41,799 - INFO -  * Restarting with stat
+2026-05-03 00:51:43,516 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:43,550 - WARNING -  * Debugger is active!
+2026-05-03 00:51:43,552 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:44,606 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:44,804 - INFO -  * Restarting with stat
+2026-05-03 00:51:46,506 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:46,558 - WARNING -  * Debugger is active!
+2026-05-03 00:51:46,561 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:47,647 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:47,865 - INFO -  * Restarting with stat
+2026-05-03 00:51:49,558 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:49,596 - WARNING -  * Debugger is active!
+2026-05-03 00:51:49,599 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:50,883 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:51:50,967 - INFO - 127.0.0.1 - - [03/May/2026 00:51:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:51:51,679 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:51,880 - INFO -  * Restarting with stat
+2026-05-03 00:51:53,473 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:53,504 - WARNING -  * Debugger is active!
+2026-05-03 00:51:53,506 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:51:56,607 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:51:56,834 - INFO -  * Restarting with stat
+2026-05-03 00:51:58,444 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:51:58,481 - WARNING -  * Debugger is active!
+2026-05-03 00:51:58,484 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:06,698 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:07,002 - INFO -  * Restarting with stat
+2026-05-03 00:52:08,653 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:08,691 - WARNING -  * Debugger is active!
+2026-05-03 00:52:08,694 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:10,778 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:11,023 - INFO -  * Restarting with stat
+2026-05-03 00:52:12,638 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:12,668 - WARNING -  * Debugger is active!
+2026-05-03 00:52:12,671 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:20,877 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:21,079 - INFO -  * Restarting with stat
+2026-05-03 00:52:22,717 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:22,751 - WARNING -  * Debugger is active!
+2026-05-03 00:52:22,753 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:35,037 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:35,263 - INFO -  * Restarting with stat
+2026-05-03 00:52:37,056 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:37,086 - WARNING -  * Debugger is active!
+2026-05-03 00:52:37,088 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:38,145 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:38,369 - INFO -  * Restarting with stat
+2026-05-03 00:52:40,121 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:40,159 - WARNING -  * Debugger is active!
+2026-05-03 00:52:40,163 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:41,242 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:41,429 - INFO -  * Restarting with stat
+2026-05-03 00:52:43,000 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:43,029 - WARNING -  * Debugger is active!
+2026-05-03 00:52:43,031 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:46,136 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:46,338 - INFO -  * Restarting with stat
+2026-05-03 00:52:47,866 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:47,907 - WARNING -  * Debugger is active!
+2026-05-03 00:52:47,911 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:50,008 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:50,265 - INFO -  * Restarting with stat
+2026-05-03 00:52:51,908 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:51,940 - WARNING -  * Debugger is active!
+2026-05-03 00:52:51,942 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:51,989 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:52,214 - INFO -  * Restarting with stat
+2026-05-03 00:52:54,269 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:54,298 - WARNING -  * Debugger is active!
+2026-05-03 00:52:54,301 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:55,373 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:55,565 - INFO -  * Restarting with stat
+2026-05-03 00:52:57,169 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:52:57,197 - WARNING -  * Debugger is active!
+2026-05-03 00:52:57,199 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:52:58,265 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:52:58,495 - INFO -  * Restarting with stat
+2026-05-03 00:53:00,174 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:00,209 - WARNING -  * Debugger is active!
+2026-05-03 00:53:00,211 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:09,444 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:09,697 - INFO -  * Restarting with stat
+2026-05-03 00:53:11,567 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:11,611 - WARNING -  * Debugger is active!
+2026-05-03 00:53:11,613 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:12,674 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:12,866 - INFO -  * Restarting with stat
+2026-05-03 00:53:14,536 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:14,571 - WARNING -  * Debugger is active!
+2026-05-03 00:53:14,573 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:15,624 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:15,815 - INFO -  * Restarting with stat
+2026-05-03 00:53:17,407 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:17,450 - WARNING -  * Debugger is active!
+2026-05-03 00:53:17,453 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:18,506 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:18,806 - INFO -  * Restarting with stat
+2026-05-03 00:53:20,539 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:20,574 - WARNING -  * Debugger is active!
+2026-05-03 00:53:20,576 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:23,685 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:23,907 - INFO -  * Restarting with stat
+2026-05-03 00:53:25,603 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:25,634 - WARNING -  * Debugger is active!
+2026-05-03 00:53:25,636 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:33,877 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:34,102 - INFO -  * Restarting with stat
+2026-05-03 00:53:35,833 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:35,864 - WARNING -  * Debugger is active!
+2026-05-03 00:53:35,867 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:36,971 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:37,168 - INFO -  * Restarting with stat
+2026-05-03 00:53:38,842 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:38,872 - WARNING -  * Debugger is active!
+2026-05-03 00:53:38,874 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:39,928 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:40,165 - INFO -  * Restarting with stat
+2026-05-03 00:53:41,862 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:41,895 - WARNING -  * Debugger is active!
+2026-05-03 00:53:41,897 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:50,560 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:53:50,646 - INFO - 127.0.0.1 - - [03/May/2026 00:53:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:53:51,142 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:51,369 - INFO -  * Restarting with stat
+2026-05-03 00:53:53,266 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:53,315 - WARNING -  * Debugger is active!
+2026-05-03 00:53:53,317 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:53:54,379 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:53:54,589 - INFO -  * Restarting with stat
+2026-05-03 00:53:56,262 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:53:56,292 - WARNING -  * Debugger is active!
+2026-05-03 00:53:56,294 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:54:03,467 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:54:03,685 - INFO -  * Restarting with stat
+2026-05-03 00:54:05,577 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:54:05,607 - WARNING -  * Debugger is active!
+2026-05-03 00:54:05,609 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:54:09,731 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:54:09,929 - INFO -  * Restarting with stat
+2026-05-03 00:54:11,623 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:54:11,654 - WARNING -  * Debugger is active!
+2026-05-03 00:54:11,657 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:54:18,863 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:54:19,091 - INFO -  * Restarting with stat
+2026-05-03 00:54:20,846 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:54:20,878 - WARNING -  * Debugger is active!
+2026-05-03 00:54:20,880 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:54:21,935 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:54:22,153 - INFO -  * Restarting with stat
+2026-05-03 00:54:23,743 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:54:23,776 - WARNING -  * Debugger is active!
+2026-05-03 00:54:23,778 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:54:44,250 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:54:44,440 - INFO -  * Restarting with stat
+2026-05-03 00:54:46,179 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:54:46,210 - WARNING -  * Debugger is active!
+2026-05-03 00:54:46,212 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:54:50,396 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:54:50,491 - INFO - 127.0.0.1 - - [03/May/2026 00:54:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:54:51,043 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:54:51,121 - INFO - 127.0.0.1 - - [03/May/2026 00:54:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:54:52,396 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:54:52,727 - INFO -  * Restarting with stat
+2026-05-03 00:54:54,547 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:54:54,577 - WARNING -  * Debugger is active!
+2026-05-03 00:54:54,579 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:54:54,627 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:54:54,848 - INFO -  * Restarting with stat
+2026-05-03 00:54:56,686 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:54:56,717 - WARNING -  * Debugger is active!
+2026-05-03 00:54:56,719 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:54:57,771 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:54:57,988 - INFO -  * Restarting with stat
+2026-05-03 00:54:59,624 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:54:59,664 - WARNING -  * Debugger is active!
+2026-05-03 00:54:59,666 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:00,736 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:55:00,937 - INFO -  * Restarting with stat
+2026-05-03 00:55:02,736 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:02,769 - WARNING -  * Debugger is active!
+2026-05-03 00:55:02,771 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:03,823 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:55:04,027 - INFO -  * Restarting with stat
+2026-05-03 00:55:06,034 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:06,068 - WARNING -  * Debugger is active!
+2026-05-03 00:55:06,070 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:08,144 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:55:08,415 - INFO -  * Restarting with stat
+2026-05-03 00:55:10,263 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:10,299 - WARNING -  * Debugger is active!
+2026-05-03 00:55:10,301 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:11,358 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:55:11,555 - INFO -  * Restarting with stat
+2026-05-03 00:55:13,474 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:13,512 - WARNING -  * Debugger is active!
+2026-05-03 00:55:13,514 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:15,588 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:55:15,792 - INFO -  * Restarting with stat
+2026-05-03 00:55:17,726 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:17,766 - WARNING -  * Debugger is active!
+2026-05-03 00:55:17,769 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:18,842 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\auto_login.py', reloading
+2026-05-03 00:55:19,040 - INFO -  * Restarting with stat
+2026-05-03 00:55:20,846 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:20,891 - WARNING -  * Debugger is active!
+2026-05-03 00:55:20,896 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:50,401 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:55:50,488 - INFO - 127.0.0.1 - - [03/May/2026 00:55:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:55:51,201 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:55:51,267 - INFO - 127.0.0.1 - - [03/May/2026 00:55:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:55:51,650 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:55:51,925 - INFO -  * Restarting with stat
+2026-05-03 00:55:53,635 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:53,667 - WARNING -  * Debugger is active!
+2026-05-03 00:55:53,669 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:54,717 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:55:54,965 - INFO -  * Restarting with stat
+2026-05-03 00:55:56,802 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:56,833 - WARNING -  * Debugger is active!
+2026-05-03 00:55:56,835 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:55:57,883 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:55:58,167 - INFO -  * Restarting with stat
+2026-05-03 00:55:59,899 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:55:59,930 - WARNING -  * Debugger is active!
+2026-05-03 00:55:59,932 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:03,030 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:56:03,254 - INFO -  * Restarting with stat
+2026-05-03 00:56:04,871 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:56:04,904 - WARNING -  * Debugger is active!
+2026-05-03 00:56:04,906 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:05,959 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:56:06,174 - INFO -  * Restarting with stat
+2026-05-03 00:56:07,868 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:56:07,902 - WARNING -  * Debugger is active!
+2026-05-03 00:56:07,904 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:17,143 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:56:17,357 - INFO -  * Restarting with stat
+2026-05-03 00:56:19,068 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:56:19,100 - WARNING -  * Debugger is active!
+2026-05-03 00:56:19,103 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:23,224 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:56:23,494 - INFO -  * Restarting with stat
+2026-05-03 00:56:25,316 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:56:25,350 - WARNING -  * Debugger is active!
+2026-05-03 00:56:25,353 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:25,407 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:56:25,610 - INFO -  * Restarting with stat
+2026-05-03 00:56:27,301 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:56:27,338 - WARNING -  * Debugger is active!
+2026-05-03 00:56:27,340 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:37,617 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:56:37,899 - INFO -  * Restarting with stat
+2026-05-03 00:56:39,585 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:56:39,625 - WARNING -  * Debugger is active!
+2026-05-03 00:56:39,627 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:42,743 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\get_token.py', reloading
+2026-05-03 00:56:42,941 - INFO -  * Restarting with stat
+2026-05-03 00:56:44,483 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:56:44,515 - WARNING -  * Debugger is active!
+2026-05-03 00:56:44,518 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:50,362 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:56:50,454 - INFO - 127.0.0.1 - - [03/May/2026 00:56:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:56:51,032 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:56:51,105 - INFO - 127.0.0.1 - - [03/May/2026 00:56:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:56:56,859 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:56:57,071 - INFO -  * Restarting with stat
+2026-05-03 00:56:58,825 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:56:58,855 - WARNING -  * Debugger is active!
+2026-05-03 00:56:58,857 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:56:59,932 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:00,164 - INFO -  * Restarting with stat
+2026-05-03 00:57:01,776 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:01,806 - WARNING -  * Debugger is active!
+2026-05-03 00:57:01,808 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:05,924 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:06,211 - INFO -  * Restarting with stat
+2026-05-03 00:57:07,759 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:07,790 - WARNING -  * Debugger is active!
+2026-05-03 00:57:07,792 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:08,851 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:09,079 - INFO -  * Restarting with stat
+2026-05-03 00:57:10,900 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:10,929 - WARNING -  * Debugger is active!
+2026-05-03 00:57:10,931 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:11,985 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:12,186 - INFO -  * Restarting with stat
+2026-05-03 00:57:13,790 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:13,822 - WARNING -  * Debugger is active!
+2026-05-03 00:57:13,824 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:14,893 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:15,152 - INFO -  * Restarting with stat
+2026-05-03 00:57:16,781 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:16,813 - WARNING -  * Debugger is active!
+2026-05-03 00:57:16,815 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:19,917 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:20,181 - INFO -  * Restarting with stat
+2026-05-03 00:57:21,848 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:21,881 - WARNING -  * Debugger is active!
+2026-05-03 00:57:21,886 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:22,937 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:23,201 - INFO -  * Restarting with stat
+2026-05-03 00:57:25,019 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:25,056 - WARNING -  * Debugger is active!
+2026-05-03 00:57:25,058 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:38,376 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:38,611 - INFO -  * Restarting with stat
+2026-05-03 00:57:40,354 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:40,388 - WARNING -  * Debugger is active!
+2026-05-03 00:57:40,390 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:41,450 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:41,683 - INFO -  * Restarting with stat
+2026-05-03 00:57:43,368 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:43,400 - WARNING -  * Debugger is active!
+2026-05-03 00:57:43,403 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:47,536 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:47,750 - INFO -  * Restarting with stat
+2026-05-03 00:57:49,813 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:49,846 - WARNING -  * Debugger is active!
+2026-05-03 00:57:49,848 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:51,225 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:57:51,306 - INFO - 127.0.0.1 - - [03/May/2026 00:57:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:57:51,831 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:57:51,935 - INFO - 127.0.0.1 - - [03/May/2026 00:57:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:57:51,964 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:52,200 - INFO -  * Restarting with stat
+2026-05-03 00:57:53,861 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:53,892 - WARNING -  * Debugger is active!
+2026-05-03 00:57:53,895 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:57:58,026 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:57:58,257 - INFO -  * Restarting with stat
+2026-05-03 00:57:59,897 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:57:59,926 - WARNING -  * Debugger is active!
+2026-05-03 00:57:59,929 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:58:09,142 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:58:09,345 - INFO -  * Restarting with stat
+2026-05-03 00:58:11,074 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:58:11,107 - WARNING -  * Debugger is active!
+2026-05-03 00:58:11,109 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:58:17,290 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:58:17,528 - INFO -  * Restarting with stat
+2026-05-03 00:58:19,128 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:58:19,171 - WARNING -  * Debugger is active!
+2026-05-03 00:58:19,173 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:58:20,243 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:58:20,463 - INFO -  * Restarting with stat
+2026-05-03 00:58:21,958 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:58:21,987 - WARNING -  * Debugger is active!
+2026-05-03 00:58:21,989 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:58:24,099 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:58:24,368 - INFO -  * Restarting with stat
+2026-05-03 00:58:26,023 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:58:26,058 - WARNING -  * Debugger is active!
+2026-05-03 00:58:26,060 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:58:28,134 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:58:28,357 - INFO -  * Restarting with stat
+2026-05-03 00:58:30,237 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:58:30,270 - WARNING -  * Debugger is active!
+2026-05-03 00:58:30,273 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:58:33,382 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\live_data.py', reloading
+2026-05-03 00:58:33,600 - INFO -  * Restarting with stat
+2026-05-03 00:58:35,291 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:58:35,320 - WARNING -  * Debugger is active!
+2026-05-03 00:58:35,322 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:58:50,437 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:58:50,538 - INFO - 127.0.0.1 - - [03/May/2026 00:58:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:58:51,077 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:58:51,215 - INFO - 127.0.0.1 - - [03/May/2026 00:58:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:59:40,773 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 00:59:41,055 - INFO -  * Restarting with stat
+2026-05-03 00:59:42,675 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:59:42,705 - WARNING -  * Debugger is active!
+2026-05-03 00:59:42,707 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:59:46,835 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 00:59:47,036 - INFO -  * Restarting with stat
+2026-05-03 00:59:48,666 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:59:48,697 - WARNING -  * Debugger is active!
+2026-05-03 00:59:48,699 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:59:49,756 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 00:59:50,051 - INFO -  * Restarting with stat
+2026-05-03 00:59:51,659 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:59:51,691 - WARNING -  * Debugger is active!
+2026-05-03 00:59:51,693 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 00:59:52,991 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 00:59:53,083 - INFO - 127.0.0.1 - - [03/May/2026 00:59:53] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 00:59:55,831 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 00:59:56,041 - INFO -  * Restarting with stat
+2026-05-03 00:59:57,715 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 00:59:57,753 - WARNING -  * Debugger is active!
+2026-05-03 00:59:57,755 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 01:00:01,888 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 01:00:02,110 - INFO -  * Restarting with stat
+2026-05-03 01:00:03,675 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 01:00:03,708 - WARNING -  * Debugger is active!
+2026-05-03 01:00:03,710 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 01:00:04,776 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 01:00:04,986 - INFO -  * Restarting with stat
+2026-05-03 01:00:06,578 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 01:00:06,611 - WARNING -  * Debugger is active!
+2026-05-03 01:00:06,614 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 01:00:15,827 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 01:00:16,081 - INFO -  * Restarting with stat
+2026-05-03 01:00:17,779 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 01:00:17,811 - WARNING -  * Debugger is active!
+2026-05-03 01:00:17,813 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 01:00:27,051 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 01:00:27,267 - INFO -  * Restarting with stat
+2026-05-03 01:00:28,914 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 01:00:28,944 - WARNING -  * Debugger is active!
+2026-05-03 01:00:28,947 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 01:00:30,003 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 01:00:30,216 - INFO -  * Restarting with stat
+2026-05-03 01:00:31,947 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 01:00:31,980 - WARNING -  * Debugger is active!
+2026-05-03 01:00:31,982 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 01:00:35,078 - INFO -  * Detected change in 'C:\\Users\\asus\\OneDrive\\Desktop\\FinSights\\backend\\test_totp.py', reloading
+2026-05-03 01:00:35,279 - INFO -  * Restarting with stat
+2026-05-03 01:00:36,867 - INFO - Successfully connected to Fyers and Groq.
+2026-05-03 01:00:36,900 - WARNING -  * Debugger is active!
+2026-05-03 01:00:36,902 - INFO -  * Debugger PIN: 810-838-334
+2026-05-03 01:00:50,592 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:00:50,699 - INFO - 127.0.0.1 - - [03/May/2026 01:00:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:00:51,313 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:00:51,419 - INFO - 127.0.0.1 - - [03/May/2026 01:00:51] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:01:49,949 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:01:50,034 - INFO - 127.0.0.1 - - [03/May/2026 01:01:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:01:50,612 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:01:50,742 - INFO - 127.0.0.1 - - [03/May/2026 01:01:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:02:01,584 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:02:01,681 - INFO - 127.0.0.1 - - [03/May/2026 01:02:01] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:02:31,228 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:02:31,319 - INFO - 127.0.0.1 - - [03/May/2026 01:02:31] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:02:49,948 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:02:50,026 - INFO - 127.0.0.1 - - [03/May/2026 01:02:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:03:01,156 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:03:01,246 - INFO - 127.0.0.1 - - [03/May/2026 01:03:01] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:03:31,323 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:03:31,412 - INFO - 127.0.0.1 - - [03/May/2026 01:03:31] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:03:49,880 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:03:49,995 - INFO - 127.0.0.1 - - [03/May/2026 01:03:49] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:04:01,241 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:04:01,321 - INFO - 127.0.0.1 - - [03/May/2026 01:04:01] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:04:32,885 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:04:33,155 - INFO - 127.0.0.1 - - [03/May/2026 01:04:33] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:04:49,945 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:04:50,022 - INFO - 127.0.0.1 - - [03/May/2026 01:04:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:05:01,944 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:05:02,034 - INFO - 127.0.0.1 - - [03/May/2026 01:05:02] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:05:49,939 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:05:50,036 - INFO - 127.0.0.1 - - [03/May/2026 01:05:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:05:50,594 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:05:50,676 - INFO - 127.0.0.1 - - [03/May/2026 01:05:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:06:25,227 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:06:25,303 - INFO - 127.0.0.1 - - [03/May/2026 01:06:25] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:06:31,161 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:06:31,238 - INFO - 127.0.0.1 - - [03/May/2026 01:06:31] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:06:49,781 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:06:49,872 - INFO - 127.0.0.1 - - [03/May/2026 01:06:49] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:07:01,191 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:07:01,283 - INFO - 127.0.0.1 - - [03/May/2026 01:07:01] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:07:31,380 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:07:31,455 - INFO - 127.0.0.1 - - [03/May/2026 01:07:31] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:07:49,939 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:07:50,009 - INFO - 127.0.0.1 - - [03/May/2026 01:07:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:07:55,703 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:07:55,785 - INFO - 127.0.0.1 - - [03/May/2026 01:07:55] "GET /api/search?symbol=swiggy HTTP/1.1" 200 -
+2026-05-03 01:08:00,967 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:08:01,042 - INFO - 127.0.0.1 - - [03/May/2026 01:08:01] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:08:09,805 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:08:10,019 - INFO - 127.0.0.1 - - [03/May/2026 01:08:10] "GET /api/search?symbol=icicibank HTTP/1.1" 200 -
+2026-05-03 01:08:29,139 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:08:29,262 - INFO - 127.0.0.1 - - [03/May/2026 01:08:29] "GET /api/search?symbol=tcs HTTP/1.1" 200 -
+2026-05-03 01:08:31,058 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:08:31,135 - INFO - 127.0.0.1 - - [03/May/2026 01:08:31] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:08:44,018 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:08:44,084 - INFO - 127.0.0.1 - - [03/May/2026 01:08:44] "GET /api/search?symbol=infosys HTTP/1.1" 200 -
+2026-05-03 01:08:49,777 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:08:49,915 - INFO - 127.0.0.1 - - [03/May/2026 01:08:49] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:08:57,631 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:08:57,784 - INFO - 127.0.0.1 - - [03/May/2026 01:08:57] "GET /api/search?symbol=paytm HTTP/1.1" 200 -
+2026-05-03 01:09:01,296 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:09:01,412 - INFO - 127.0.0.1 - - [03/May/2026 01:09:01] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:09:31,216 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:09:31,288 - INFO - 127.0.0.1 - - [03/May/2026 01:09:31] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:09:49,994 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:09:50,109 - INFO - 127.0.0.1 - - [03/May/2026 01:09:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:10:01,295 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:10:01,400 - INFO - 127.0.0.1 - - [03/May/2026 01:10:01] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:10:31,916 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:10:32,033 - INFO - 127.0.0.1 - - [03/May/2026 01:10:32] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:10:49,933 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:10:50,074 - INFO - 127.0.0.1 - - [03/May/2026 01:10:50] "GET /api/market-analysis HTTP/1.1" 200 -
+2026-05-03 01:11:02,027 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 01:11:02,118 - INFO - 127.0.0.1 - - [03/May/2026 01:11:02] "GET /api/market-analysis HTTP/1.1" 200 -

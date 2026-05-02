@@ -1,206 +1,220 @@
 import os
-import json
-import asyncio
-import yfinance as yf
-from fastapi import FastAPI, HTTPException, Query
-from fastapi.middleware.cors import CORSMiddleware
+import logging
+import pandas as pd
+import numpy as np
+from flask import Flask, jsonify, request
+from flask_cors import CORS
 from fyers_apiv3 import fyersModel
 from groq import Groq
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
+# ==========================================
+# 1. CONFIGURATION & LOGGING
+# ==========================================
 load_dotenv()
-app = FastAPI()
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+logging.basicConfig(
+    level=logging.INFO, 
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    filename="finsights_pro.log"
 )
 
-# ----------------- HELPER FUNCTIONS -----------------
+app = Flask(__name__)
+CORS(app)
 
-def get_fyers_client():
-    return fyersModel.FyersModel(
-        client_id=os.getenv("FYERS_CLIENT_ID"),
-        token=os.getenv("FYERS_ACCESS_TOKEN"),
-        is_async=False, log_path=""
-    )
+# ==========================================
+# 2. CORE TRADING ENGINE CLASS
+# ==========================================
+class FinSightsEngine:
+    def __init__(self):
+        self.client_id = os.getenv("FYERS_CLIENT_ID")
+        self.access_token = os.getenv("FYERS_ACCESS_TOKEN")
+        self.groq_key = os.getenv("GROQ_API_KEY")
+        self.fyers = None
+        self.groq = None
+        self.connect()
 
-async def fetch_fyers_data(symbols):
-    loop = asyncio.get_event_loop()
-    fyers = get_fyers_client()
-    return await loop.run_in_executor(None, lambda: fyers.quotes({"symbols": ",".join(symbols)}))
-
-async def get_latest_news_async(symbol):
-    """Brief report ke liye news fetcher"""
-    loop = asyncio.get_event_loop()
-    def fetch_news():
+    def connect(self):
         try:
-            yf_symbol = "^NSEI" if "NIFTY" in symbol.upper() else f"{symbol.upper()}.NS"
-            ticker = yf.Ticker(yf_symbol)
-            news = ticker.news
-            return " | ".join([n['title'] for n in news[:3]]) if news else "No major recent news."
-        except:
-            return "News temporarily unavailable."
-    return await loop.run_in_executor(None, fetch_news)
-
-# ----------------- API ENDPOINTS -----------------
-
-@app.get("/api/search")
-async def search_stock(symbol: str = Query(..., description="Stock symbol to search")):
-    try:
-        # 1. whaterver user input, convert to uppercase and trim spaces for consistency
-        symbol_input = symbol.upper().strip()
-
-        # 2. smart trasnlation for user-friendly inputs
-        if symbol_input in ["INFOSYS", "INFY"]:
-            target_symbol = "NSE:INFY-EQ"
-        elif symbol_input == "ZOMATO":
-            target_symbol = "NSE:ZOMATO-EQ"
-        elif "NIFTY" in symbol_input:
-            target_symbol = "NSE:NIFTY50-INDEX"
-        else:
-            # standard format for all other stocks
-            target_symbol = f"NSE:{symbol_input}-EQ"
-
-        print(f"DEBUG: Backend kya dhundh raha hai -> {target_symbol}")
-
-        movers_symbols = ["NSE:RELIANCE-EQ", "NSE:HDFCBANK-EQ", "NSE:TCS-EQ", "NSE:INFY-EQ", "NSE:ICICIBANK-EQ"]
-        all_symbols = [target_symbol] + movers_symbols
-
-        # 3. get data from fyers and news in parallel
-        data_task = asyncio.create_task(fetch_fyers_data(all_symbols))
-        news_task = asyncio.create_task(get_latest_news_async(symbol_input))
-        data, news_headlines = await asyncio.gather(data_task, news_task)
-
-        # 4. search your target stock in fyers data
-        searched_item = next((item for item in data.get("d", []) if item.get("n") == target_symbol), None)
-        
-        # if not found by exact match, try partial match (for user convenience)
-        if not searched_item:
-            for item in data.get("d", []):
-                if symbol_input in item.get("n", ""):
-                    searched_item = item
-                    break
-
-        # if not found, return 404
-        if not searched_item:
-            raise HTTPException(status_code=404, detail=f"Stock '{symbol_input}' price not available.")
-            
-        stock_data = searched_item["v"]
-
-        # 5. to find data of market movers
-        movers = []
-        for item in data["d"]:
-             if item["n"] != target_symbol and item["n"] in movers_symbols:
-                v = item["v"]
-                movers.append({
-                    "symbol": v.get("short_name", item["n"].split(":")[1].split("-")[0]),
-                    "price": v.get("lp"),
-                    "change": v.get("chp")
-                })
-
-        # 6. Groq AI Analysis
-        try:
-            client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-            prompt = f"""Analyze {symbol_input} stock. 
-            Price: ₹{stock_data.get('lp')}, Change: {stock_data.get('chp')}%. 
-            News: {news_headlines}
-            
-            Instruction: Be decisive based on price change and news. 
-            If change > 1.5% and news is positive, suggest 'Invest'. 
-            If change < -1.5% or news is negative, suggest 'Avoid'. 
-            Otherwise, 'Hold'.
-            
-            Return ONLY JSON:
-            {{"sentiment": "2-sentence report", "confidence": "XX%", "investment_advice": "Invest/Hold/Avoid + short reason"}}"""
-            
-            response = client.chat.completions.create(
-                messages=[{"role": "user", "content": prompt}],
-                model="llama-3.1-8b-instant",
-                temperature=0.5, 
-                response_format={"type": "json_object"}
+            self.fyers = fyersModel.FyersModel(
+                client_id=self.client_id, 
+                token=self.access_token, 
+                is_async=False, 
+                log_path=""
             )
-            ai_data = json.loads(response.choices[0].message.content)
+            self.groq = Groq(api_key=self.groq_key)
+            logging.info("Successfully connected to Fyers and Groq.")
         except Exception as e:
-            print(f"AI Error: {e}") 
-            ai_data = {"sentiment": "Trend is stable.", "confidence": "80%", "investment_advice": "Hold for now."}
+            logging.error(f"Connection Error: {e}")
 
-        # 7. Final data to frontend 
-        return {
-            "main_stock": {
-                "name": symbol_input,
-                "price": stock_data.get("lp"),
-                "change": stock_data.get("chp"),
-                "high": stock_data.get("high_price"),
-                "low": stock_data.get("low_price"),
-                "open": stock_data.get("open_price"),
-                "analysis": ai_data.get("sentiment"),
-                "accuracy": ai_data.get("confidence"),
-                "investment_advice": ai_data.get("investment_advice")
-            },
-            "movers": movers
-        }
-    except Exception as e:
-        print(f"Error: {e}")
-        raise HTTPException(status_code=500, detail="Search failed")
-
-
-@app.get("/api/market-analysis")
-async def get_market_analysis():
-    try:
-        symbols = ["NSE:NIFTY50-INDEX", "NSE:RELIANCE-EQ", "NSE:HDFCBANK-EQ", "NSE:TCS-EQ", "NSE:INFY-EQ", "NSE:ICICIBANK-EQ"]
-        
-        data_task = asyncio.create_task(fetch_fyers_data(symbols))
-        news_task = asyncio.create_task(get_latest_news_async("NIFTY 50"))
-        
-        data, news_headlines = await asyncio.gather(data_task, news_task)
-
-        if not data or "d" not in data:
-            raise HTTPException(status_code=401, detail="Invalid Data.")
-
-        nifty_item = next((item for item in data["d"] if item["n"] == "NSE:NIFTY50-INDEX"), None)
-        nifty = nifty_item["v"]
-        
-        movers = []
-        for item in data["d"]:
-            if "NIFTY50" not in item["n"]:
-                v = item["v"]
-                movers.append({
-                    "symbol": v.get("short_name", item["n"].split(":")[1].split("-")[0]),
-                    "price": v.get("lp"),
-                    "change": v.get("chp")
-                })
-
+    def get_live_quotes(self, symbols):
         try:
-            client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-            prompt = f"Analyze Nifty 50 at ₹{nifty.get('lp')}. News: {news_headlines}. Return JSON: sentiment, confidence, investment_advice."
-            response = client.chat.completions.create(
+            res = self.fyers.quotes({"symbols": ",".join(symbols)})
+            return res['d'] if res.get('s') == 'ok' else []
+        except Exception as e:
+            return []
+
+    def get_historical_data(self, symbol, days=60):
+        try:
+            end = datetime.now().strftime('%Y-%m-%d')
+            start = (datetime.now() - timedelta(days=days)).strftime('%Y-%m-%d')
+            data = {
+                "symbol": symbol, "resolution": "D", "date_format": "1",
+                "range_from": start, "range_to": end, "cont_flag": "1"
+            }
+            res = self.fyers.history(data)
+            if res.get('s') == 'ok':
+                return pd.DataFrame(res['candles'], columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+            return pd.DataFrame()
+        except Exception as e:
+            logging.error(f"History Fetch Error: {e}")
+            return pd.DataFrame()
+
+    def calculate_indicators(self, df):
+        if df.empty: return {}
+        df['sma_20'] = df['close'].rolling(window=20).mean()
+        delta = df['close'].diff()
+        gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
+        loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
+        rs = gain / loss
+        df['rsi'] = 100 - (100 / (1 + rs))
+        last_row = df.iloc[-1]
+        return {
+            "sma_20": round(last_row['sma_20'], 2),
+            "rsi": round(last_row['rsi'], 2),
+            "trend": "Bullish" if last_row['close'] > last_row['sma_20'] else "Bearish"
+        }
+
+    def generate_ai_report(self, symbol_name, price, indicators, change):
+        try:
+            prompt = (
+                f"You are a professional Indian stock market analyst. Analyze {symbol_name} which is at Rs.{price}. "
+                f"RSI is {indicators.get('rsi', 'N/A')}, Trend is {indicators.get('trend', 'N/A')}, "
+                f"today's change is {change}%. "
+                f"Give a concise 2-3 sentence market outlook. "
+                f"Then list exactly 3 Key Drivers and 3 What to Watch points. "
+                f"Format as JSON with keys: outlook (string), sentiment (Bullish/Bearish/Neutral), "
+                f"accuracy (realistic percentage e.g. 78%), "
+                f"key_drivers (list of 3 strings), what_to_watch (list of 3 strings). "
+                f"Return ONLY valid JSON, no extra text."
+            )
+            res = self.groq.chat.completions.create(
                 messages=[{"role": "user", "content": prompt}],
                 model="llama-3.1-8b-instant",
-                temperature=0.3,
-                response_format={"type": "json_object"}
             )
-            ai_data = json.loads(response.choices[0].message.content)
-        except:
-            ai_data = {"sentiment": "Market is steady.", "confidence": "85%", "investment_advice": "Hold."}
+            import json
+            content = res.choices[0].message.content.strip()
+            if content.startswith("```"):
+                content = content.split("```")[1]
+                if content.startswith("json"):
+                    content = content[4:]
+            return json.loads(content.strip())
+        except Exception as e:
+            logging.error(f"AI Report Error: {e}")
+            return {
+                "outlook": "Market analysis temporarily unavailable.",
+                "sentiment": "Neutral",
+                "accuracy": "N/A",
+                "key_drivers": ["Global market trends", "FII/DII activity", "Sectoral momentum"],
+                "what_to_watch": ["Key resistance levels", "Support zones", "Upcoming economic data"]
+            }
 
-        return {
-            "main_stock": {
-                "name": "NIFTY 50 INDEX",
-                "price": nifty.get("lp"),
-                "change": nifty.get("chp"),
-                "high": nifty.get("high_price"),
-                "low": nifty.get("low_price"),
-                
-                "open": nifty.get("open_price"), 
-                "analysis": ai_data.get("sentiment"),
-                "accuracy": ai_data.get("confidence"),
-                "investment_advice": ai_data.get("investment_advice")
-            },
-            "movers": movers
-        }
-    except Exception as e:
-        raise HTTPException(status_code=500, detail="Server Error")
+    def get_market_movers(self):
+        symbols = [
+            "NSE:RELIANCE-EQ", "NSE:HDFCBANK-EQ", "NSE:TCS-EQ", 
+            "NSE:INFY-EQ", "NSE:ICICIBANK-EQ"
+        ]
+        try:
+            res = self.fyers.quotes({"symbols": ",".join(symbols)})
+            movers = []
+            if res.get('s') == 'ok':
+                for item in res['d']:
+                    v = item['v']
+                    movers.append({
+                        "symbol": v.get('short_name', item['n'].split(':')[1].replace('-EQ','')),
+                        "price": round(v.get('lp', 0), 2),
+                        "change": round(v.get('chp', 0), 2)
+                    })
+            return movers
+        except Exception as e:
+            logging.error(f"Movers Error: {e}")
+            return []
+
+
+engine = FinSightsEngine()
+
+# ==========================================
+# 3. HELPER FUNCTION
+# ==========================================
+def build_stock_response(fyers_symbol, display_name):
+    quotes = engine.get_live_quotes([fyers_symbol])
+    if not quotes:
+        return None
+    
+    v = quotes[0]['v']
+    price = v.get('lp', 0)
+    change = round(v.get('chp', 0), 2)
+    
+    df = engine.get_historical_data(fyers_symbol, days=60)
+    indicators = engine.calculate_indicators(df)
+    ai = engine.generate_ai_report(display_name, price, indicators, change)
+    movers = engine.get_market_movers()
+
+    return {
+        "main_stock": {
+            "name": display_name,
+            "price": round(price, 2),
+            "change": change,
+            "open": round(v.get('open_price', 0), 2),
+            "high": round(v.get('high_price', 0), 2),
+            "low": round(v.get('low_price', 0), 2),
+            "analysis": ai.get("outlook"),
+            "sentiment": ai.get("sentiment"),
+            "accuracy": ai.get("accuracy"),
+            "key_drivers": ai.get("key_drivers"),
+            "what_to_watch": ai.get("what_to_watch"),
+            "technical": indicators,
+            "investment_advice": f"{'Consider buying on dips' if ai.get('sentiment') == 'Bullish' else 'Stay cautious, wait for reversal' if ai.get('sentiment') == 'Bearish' else 'Hold positions, market is consolidating'}",
+        },
+        "movers": movers,
+        "chart_data": df.tail(15).to_dict(orient='records') if not df.empty else []
+    }
+
+# ==========================================
+# 4. API ROUTES
+# ==========================================
+
+@app.route('/api/market-analysis', methods=['GET'])
+def market_analysis():
+    """Default - NIFTY 50"""
+    result = build_stock_response("NSE:NIFTY50-INDEX", "NIFTY 50 INDEX")
+    if not result:
+        return jsonify({"error": "Fyers token expired"}), 401
+    return jsonify(result)
+
+
+@app.route('/api/search', methods=['GET'])
+def search_stock():
+    """Koi bhi stock search karo - e.g. ?symbol=RELIANCE"""
+    symbol = request.args.get('symbol', '').upper().strip()
+    if not symbol:
+        return jsonify({"error": "Symbol required"}), 400
+    
+    fyers_symbol = f"NSE:{symbol}-EQ"
+    result = build_stock_response(fyers_symbol, symbol)
+    if not result:
+        return jsonify({"error": f"Could not fetch data for {symbol}"}), 404
+    return jsonify(result)
+
+
+@app.route('/api/v1/user/profile', methods=['GET'])
+def get_fyers_profile():
+    try:
+        profile = engine.fyers.get_profile()
+        return jsonify(profile)
+    except:
+        return jsonify({"status": "error", "message": "Could not fetch profile"}), 500
+
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)

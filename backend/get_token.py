@@ -4,20 +4,20 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Ab aap browser se POORI URL copy karke yahan paste kar sakti hain!
-raw_input = input("👉 Browser se poori Redirect URL yahan paste karein aur Enter dabayein: ").strip()
+# Paste your complete redirect URL here after login
+raw_input = input("👉 Paste your complete redirect URL here after login and press Enter: ").strip()
 
 # Smart Extraction Logic (Defensive Programming)
 try:
     if "auth_code=" in raw_input:
-        # URL mein se auth_code nikalna aur &state ko hatana
+        
         auth_code = raw_input.split("auth_code=")[1].split("&")[0]
     else:
         auth_code = raw_input.split("&")[0]
         
     print("🔍 Clean Code Extracted!")
 except Exception as e:
-    print("❌ URL sahi format mein nahi hai.")
+    print("❌ URL format is incorrect.")
     exit()
 
 session = fyersModel.SessionModel(
@@ -32,8 +32,8 @@ session.set_token(auth_code)
 response = session.generate_token()
 
 if response.get("s") == "ok":
-    print("\n✅ SUCCESS! Yeh raha aapka Access Token:\n")
+    print("\n✅ SUCCESS! Here is your Access Token:\n")
     print(response["access_token"])
-    print("\n👉 Is lambe token ko copy karein aur apni .env file mein FYERS_ACCESS_TOKEN= ke aage paste kar dein.")
+    print("\n👉 Copy this token and paste it in your .env file as FYERS_ACCESS_TOKEN=your_token_here")
 else:
     print("\n❌ Error:", response)

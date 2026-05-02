@@ -13,7 +13,7 @@ session = fyersModel.SessionModel(
     grant_type="authorization_code"
 )
 
-# Step 2: Login URL generate karo
+# Step 2: Generate Login URL
 print("--- FYERS LOGIN ---")
-# Yahan change kiya hai: generate_authcode() bina underscore ke
-print(f"Is URL ko browser mein kholein:\n{session.generate_authcode()}")
+
+print(f"Open the following URL in your browser:\n{session.generate_authcode()}")

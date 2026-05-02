@@ -3,7 +3,7 @@ from fyers_apiv3 import fyersModel
 from groq import Groq
 from dotenv import load_dotenv
 
-# Variables load karna
+# Loading Variables
 load_dotenv()
 
 # 1. Fyers API Setup
@@ -14,7 +14,7 @@ fyers = fyersModel.FyersModel(
     log_path=""
 )
 
-# 2. Live Data Fetch Karna
+# 2. Live Data Fetching
 symbols = "NSE:NIFTY50-INDEX"
 print("🔄 Fetching Live Market Data from Fyers...\n")
 data = fyers.quotes({"symbols": symbols})
@@ -34,7 +34,7 @@ if data and "d" in data and len(data["d"]) > 0:
     # Groq Client setup
     client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     
-    # AI ke liye Prompt design karna
+    # Design the prompt for the AI analyst
     prompt = f"""
     You are an expert AI Stock Market Analyst working for Ethara AI.
     Here is the live data for NIFTY 50 index in the Indian Stock Market:
@@ -48,7 +48,7 @@ if data and "d" in data and len(data["d"]) > 0:
     Keep the tone professional, analytical, and easy to understand.
     """
     
-    # 🚨 YAHAN MODEL UPDATE KIYA HAI 🚨
+    # 🚨 Model is updated here 🚨
     response = client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}],
         model="llama-3.3-70b-versatile", 

@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { 
   LayoutGrid, PieChart, BrainCircuit, Settings, Search, Bell, 
-  TrendingDown, TrendingUp, ChevronDown, ChevronLeft, ChevronRight, Lock, ArrowDown, ArrowUp,
-  Lightbulb
+  TrendingDown, TrendingUp, ChevronDown, ChevronLeft, ChevronRight, Lock, ArrowDown, ArrowUp, Lightbulb
 } from "lucide-react";
 import { 
   AreaChart, Area, ResponsiveContainer, Tooltip, YAxis, XAxis, ReferenceLine, CartesianGrid 
@@ -15,7 +14,8 @@ export default function FinSightsDashboard() {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState(""); 
   const [isSearching, setIsSearching] = useState(false); 
-  const [activeSymbol, setActiveSymbol] = useState(""); 
+
+  const [activeSymbol, setActiveSymbol] = useState("");
 
   const [chartData] = useState(Array.from({ length: 60 }, (_, i) => ({
     time: ["09:15", "10:30", "11:45", "01:00", "02:15", "03:30"][Math.floor(i/10)] || "03:30",
@@ -24,23 +24,17 @@ export default function FinSightsDashboard() {
 
   const fetchMarketData = async (symbol: string = "") => {
     try {
+      let url = "http://127.0.0.1:5000/api/market-analysis"; 
       if (symbol) {
+        url = `http://127.0.0.1:5000/api/search?symbol=${symbol}`; 
         setIsSearching(true);
-        setData(null); 
       }
-      setActiveSymbol(symbol); 
-      
-      
-      const baseUrl = process.env.NEXT_PUBLIC_API_URL || "https://finsights-ai-backend.onrender.com";
-      let url = symbol 
-        ? `${baseUrl}/api/search?symbol=${symbol}` 
-        : `${baseUrl}/api/market-analysis`;
-      
       const res = await axios.get(url);
       setData(res.data);
-    } catch (err) {
-      console.error("Fetch error:", err);
-    } finally {
+    } catch (err) { 
+      console.error("Backend Error:", err);
+      if (symbol) alert(`Could not find data for ${symbol}. Please check the symbol (e.g., RELIANCE, TCS).`);
+    } finally { 
       setLoading(false);
       setIsSearching(false);
     }
@@ -49,10 +43,7 @@ export default function FinSightsDashboard() {
   useEffect(() => {
     fetchMarketData(); 
     const intervalId = setInterval(() => {
-      setActiveSymbol((current) => {
-        fetchMarketData(current);
-        return current;
-      });
+        fetchMarketData(searchQuery); 
     }, 30000);
     return () => clearInterval(intervalId);
   }, []); 
@@ -130,26 +121,25 @@ export default function FinSightsDashboard() {
           </div>
         </header>
 
-        {/* Top Info Cards */}
+        {/* MAIN DYNAMIC CARD */}
         <div className="grid grid-cols-12 gap-6 mb-8">
           <div className="col-span-5 bg-[#0A101F] border border-white/5 p-8 rounded-3xl shadow-2xl">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-xs text-slate-500 font-semibold uppercase tracking-wider">{mainStock?.name || "NIFTY 50 INDEX"}</h2>
+              
               <div className={`flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold border ${isDown ? 'bg-red-500/10 text-red-500 border-red-500/20' : 'bg-emerald-500/10 text-emerald-500 border-emerald-500/20'}`}>
                 {isDown ? <ArrowDown size={14} fill="currentColor"/> : <ArrowUp size={14} fill="currentColor"/>} 
                 {Math.abs(parseFloat(mainStock?.change || "0"))}% {isDown ? 'down' : 'up'}
               </div>
             </div>
-            <h1 className="text-5xl font-bold text-white tracking-tight">
-              ₹ {mainStock?.price ? mainStock.price.toLocaleString() : "---"}
-            </h1>
+            <h1 className="text-5xl font-bold text-white tracking-tight">₹ {mainStock?.price || "23,997.55"}</h1>
             <p className="text-xs text-slate-500 mt-3 font-normal">As of 23 May 2025, 09:35 AM IST</p>
           </div>
           
           <div className="col-span-7 grid grid-cols-3 gap-5">
-            <MetricBox label="Open" val={mainStock?.open} icon={<Lock size={16} className="text-emerald-500"/>} />
-            <MetricBox label="High" val={mainStock?.high} icon={<TrendingUp size={16} className="text-blue-500"/>} />
-            <MetricBox label="Low" val={mainStock?.low} icon={<TrendingDown size={16} className="text-red-500"/>} />
+            <MetricBox label="Open" val={mainStock?.open || "24,180.20"} icon={<Lock size={16} className="text-emerald-500"/>} />
+            <MetricBox label="High" val={mainStock?.high || "24,194.55"} icon={<TrendingUp size={16} className="text-blue-500"/>} />
+            <MetricBox label="Low" val={mainStock?.low || "23,950.10"} icon={<TrendingDown size={16} className="text-red-500"/>} />
           </div>
         </div>
 
@@ -163,34 +153,35 @@ export default function FinSightsDashboard() {
                 <div className="p-2.5 bg-blue-600/20 rounded-xl border border-blue-500/30 text-blue-400"><BrainCircuit size={22}/></div>
                 <h3 className="text-base font-semibold text-white">Groq AI Sentiment Report</h3>
               </div>
+              
               <div className="flex gap-2">
                 <span className="text-xs bg-blue-500/10 px-3 py-1.5 rounded-full text-blue-400 font-medium border border-blue-500/20 flex items-center gap-1.5">
                   <div className="w-1.5 h-1.5 rounded-full bg-blue-400"></div> Neutral
                 </span>
-                <span className="text-xs bg-emerald-500/10 px-3 py-1.5 rounded-full text-emerald-400 font-medium border border-emerald-500/20">
-                  Accuracy: {mainStock?.accuracy || 'Analyzing...'}
+                <span className="text-xs bg-emerald-500/10 px-3 py-1.5 rounded-full text-emerald-400 font-medium border border-emerald-500/20 shadow-[0_0_10px_rgba(16,185,129,0.1)]">
+                  Accuracy: {mainStock?.accuracy || 'Calculating...'}
                 </span>
               </div>
             </div>
 
             <h4 className="text-blue-400 text-sm font-semibold mb-3">Outlook for {mainStock?.name || "Market"}</h4>
             <p className="text-slate-400 text-sm font-normal leading-relaxed mb-6">
-              {mainStock?.analysis || "Fetching latest market sentiment..."}
+              {mainStock?.analysis || "Analyzing current trends and market conditions..."}
             </p>
             
-            <div className="grid grid-cols-2 gap-8 mb-8">
-              <AIList title="Key Drivers" items={['Global market uncertainty', 'FII selling pressure', 'Sectoral momentum']} />
-              <AIList title="What to Watch" items={['Key resistance levels', 'Immediate support', 'Upcoming macroeconomic data']} />
+            <div className="grid grid-cols-2 gap-8">
+              <AIList title="Key Drivers" items={mainStock?.key_drivers || ['Global market uncertainty', 'FII selling pressure', 'Sectoral momentum']} />
+              <AIList title="What to Watch" items={mainStock?.what_to_watch || ['Key resistance levels', 'Immediate support', 'Upcoming macroeconomic data']} />
             </div>
 
-            {/* AI RECOMMENDATION BOX */}
-            <div className="bg-blue-600/10 border border-blue-500/20 rounded-2xl p-5 mt-4">
+            {/* AI RECOMMENDATION NEON BOX */}
+            <div className="bg-blue-600/10 border border-blue-500/20 rounded-2xl p-5 mt-6">
               <div className="flex items-center gap-3 mb-2 text-blue-400">
                 <Lightbulb size={18} className="animate-pulse" />
                 <span className="text-xs font-bold uppercase tracking-widest">AI Recommendation</span>
               </div>
               <p className="text-sm font-bold text-white">
-                {mainStock?.investment_advice || "Waiting for analysis..."}
+                {mainStock?.investment_advice || data?.investment_advice || "Analyzing momentum for best action..."}
               </p>
             </div>
           </div>
@@ -215,17 +206,14 @@ export default function FinSightsDashboard() {
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" vertical={false} opacity={0.3}/>
                   <XAxis hide />
-                  <YAxis orientation="right" domain={['dataMin - 50', 'dataMax + 50']} tick={{fill: '#475569', fontSize: 12}} axisLine={false} tickLine={false} />
-                  {/* ✅ FIX 2: Removed hardcoded 23997.55 from ReferenceLine */}
-                  {mainStock?.price && (
-                    <ReferenceLine y={mainStock.price} stroke={isDown ? "#ef4444" : "#10b981"} strokeDasharray="4 4" opacity={0.8}/>
-                  )}
+                  <YAxis orientation="right" domain={['dataMin - 50', 'dataMax + 50']} tick={{fill: '#475569', fontSize: 12, fontWeight: 400}} axisLine={false} tickLine={false} />
+                  <ReferenceLine y={mainStock?.price || 23997.55} stroke={isDown ? "#ef4444" : "#10b981"} strokeDasharray="4 4" opacity={0.8}/>
                   <Area type="monotone" dataKey="value" stroke="#3b82f6" strokeWidth={2} fillOpacity={1} fill="url(#colorVal)" />
                   <Tooltip content={<CustomTooltip />} />
                 </AreaChart>
               </ResponsiveContainer>
               <div className={`absolute right-0 bottom-[10%] text-xs font-bold px-2 py-1 rounded shadow-lg text-white ${isDown ? 'bg-red-600/90' : 'bg-emerald-600/90'}`}>
-                ₹{mainStock?.price || "---"}
+                ₹{mainStock?.price || "23,997.55"}
               </div>
             </div>
           </div>
@@ -238,12 +226,14 @@ export default function FinSightsDashboard() {
         
         <div className="grid grid-cols-5 gap-5">
           {data?.movers?.slice(0, 5).map((stock: any, i: number) => (
-            <div key={i} className="bg-[#0A101F] border border-white/5 p-6 rounded-3xl hover:bg-slate-900/50 transition-all shadow-md">
+            <div key={i} className="bg-[#0A101F] border border-white/5 p-6 rounded-3xl hover:bg-slate-900/50 transition-all shadow-md cursor-pointer" onClick={() => fetchMarketData(stock.symbol)}>
               <div className="flex justify-between items-start mb-4">
                 <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">{stock.symbol}</p>
                 <div className="w-12 h-6 overflow-hidden">
-                  <ResponsiveContainer><AreaChart data={Array.from({length:6},()=>({v:Math.random()}))}><Area type="monotone" dataKey="v" stroke={stock.change<0?'#ef4444':'#10b981'} fill={stock.change<0?'#ef444420':'#10b98120'} strokeWidth={1.5} dot={false}/></AreaChart></ResponsiveContainer>
-                </div>
+  <AreaChart width={48} height={24} data={Array.from({length:6},()=>({v:Math.random()}))}>
+    <Area type="monotone" dataKey="v" stroke={stock.change<0?'#ef4444':'#10b981'} fill={stock.change<0?'#ef444420':'#10b98120'} strokeWidth={1.5} dot={false}/>
+  </AreaChart>
+</div>
               </div>
               <p className="text-lg font-semibold text-white mb-1">₹ {stock.price}</p>
               <p className={`text-xs font-semibold ${stock.change<0?'text-red-500':'text-emerald-500'}`}>{stock.change>0?'+':''}{stock.change}%</p>
@@ -255,6 +245,7 @@ export default function FinSightsDashboard() {
   );
 }
 
+// Custom Tooltip
 const CustomTooltip = ({ active, payload }: any) => {
   if (active && payload && payload.length) {
     return (
@@ -266,6 +257,7 @@ const CustomTooltip = ({ active, payload }: any) => {
   return null;
 };
 
+// UI Components
 const NavItem = ({ icon, label, active = false }: any) => (
   <div className={`flex items-center gap-4 px-5 py-3 rounded-2xl cursor-pointer transition-all ${active ? 'bg-blue-600/10 text-blue-400 border border-blue-500/20' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}>
     <div className={`${active ? 'text-blue-400' : 'text-slate-500'}`}>{icon}</div> 
@@ -273,13 +265,10 @@ const NavItem = ({ icon, label, active = false }: any) => (
   </div>
 );
 
-// at component level to avoid repetition and keep code clean
 const MetricBox = ({ label, val, icon }: any) => (
   <div className="bg-[#0A101F] border border-white/5 p-6 rounded-3xl flex flex-col justify-between shadow-md">
     <div className="flex items-center gap-2 text-xs font-semibold uppercase text-slate-500 tracking-wider">{icon} {label}</div>
-    <div className="text-xl font-semibold text-white mt-4 tracking-wide">
-      ₹ {val ? val : "---"}
-    </div>
+    <div className="text-xl font-semibold text-white mt-4 tracking-wide">₹ {val}</div>
   </div>
 );
 
