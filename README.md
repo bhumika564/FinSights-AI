@@ -19,6 +19,45 @@ Follow these steps to get real-time insights for any company:
 
 ---
 
+## ⚠️ Important Limitation
+
+FinSights uses Fyers API for live market data. Fyers requires a fresh 
+access token every day for security reasons.
+
+### What this means:
+- Token expires daily after market hours
+- Without refreshing the token, live data will not load
+- This is Fyers' security policy — it cannot be fully automated
+
+### Daily Startup (takes ~1 minute):
+
+**Step 1 — Refresh Token:**
+```powershell
+cd backend
+python auth_token.py
+```
+A browser window will open → Login with your Fyers credentials → Done
+
+**Step 2 — Start Backend:**
+```powershell
+python main.py
+```
+
+**Step 3 — Start Frontend:**
+```powershell
+cd ../frontend
+npm run dev
+```
+
+Then open http://localhost:3000
+
+### Note:
+You can do this at any time of day — not just mornings.
+The app will work fine as long as the token is refreshed 
+before starting the backend.
+
+---
+
 ## 🌐 Go to Website
 Click here to access the live application: **[FinSights-AI Live](https://fin-sights-ai.vercel.app/)**
 
